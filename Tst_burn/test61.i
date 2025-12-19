@@ -1,0 +1,55 @@
+<< collapxi files are used in order of appearance in the files file
+( see files.test61) >>
+LIBVERSION 0
+MONITOR 1
+<< physical data from condensed library >>
+GETXS 0 << get cross section from first COLLAPX.01 file in files >>
+GETDECAY 0 << get decay data from ARRAYX >>
+FISPACT
+* THREE SPECTRA
+
+<< initial conditions >>
+DENSITY 9.838
+FUEL 6
+U235  7.9991E20
+U238  2.1149E22
+O16   4.3795E22
+O17   1.6682E19
+O18   8.7798E19
+Pu239 1.0E4
+HALF
+USEFISSION
+<< MIND 1.0E8 >>
+UNCERT 0
+FLUX 2.59032E+14
+ATOMS
+
+<< irradiation phase >>
+
+<< first part  using COLLAPX.01 >>
+TIME 6.109E-06 DAYS
+SPECTRUM
+
+<< second part  using COLLAPX.02 >>
+GETXS 0
+FLUX 2.64634E+14
+TIME 6.108994E0 DAYS
+SPECTRUM
+
+<< third part using COLLAPX.03 >>
+GETXS 0
+FLUX 2.66930E+14
+TIME 2.44410E+01 DAYS
+ATOMS
+
+<< cooling phase >>
+FLUX 0.0
+ZERO
+TIME 1.00E2 ATOMS
+TIME 9.00E2 ATOMS
+TIME 9.00E3 ATOMS
+TIME 9.00E4 ATOMS
+TIME 9.00E5 ATOMS
+TIME 9.00E6 ATOMS
+END
+* END OF MULTIPLE RUN

@@ -1,0 +1,9 @@
+<< print library data summary >>
+GETXS 0
+GETDECAY 0
+FISPACT
+* PRINTLIB OF FW IFMIF
+PRINTLIB  2
+END
+* END OF PRINTLIB
+

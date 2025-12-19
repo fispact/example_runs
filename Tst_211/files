@@ -1,0 +1,33 @@
+# This is a sample of the new format 'files' file
+# comment lines start with #,1, or *
+#
+# files can be referred to be either their name (e.g., 'crossec')
+# or by their internal unit number 9 (e.g., '19'). 
+#
+# output files may either be named in this file, or
+# have their names generated automatically from the fileroot
+# given on the command line when executing fispact 
+#
+# binary decay and collapsed cross section files
+arrayx    ARRAYX
+collapxo  COLLAPX
+collapxi  COLLAPX
+# index of nuclides
+ind_nuc  ../../nuclear_data/EAF2010data/eaf_index_20100
+# 211 energy bin cross section  values and uncertainty
+crossunc  ../../nuclear_data/EAF2010data/eaf_un_20100
+crossec   ../../nuclear_data/EAF2010data/eaf_n_gxs_211_flt_20100
+# netron flux spectrum
+fluxes    fluxes
+# fission yield and associations
+fissyld  ../../nuclear_data/EAF2010data/eaf_n_fis_20100
+asscfy  ../../nuclear_data/EAF2010data/eaf_n_asscfy_20100
+# decay data. The .001 suffix causes the program to
+# search for the sequence with suffices .002, .003, etc
+decay  ../../nuclear_data/EAF2010data/eaf_dec_20100.001
+# transport, clearance and hazards data
+a2data  ../../nuclear_data/EAF2010data/eaf_a2_20100
+clear  ../../nuclear_data/EAF2010data/eaf_clear_20100
+hazards  ../../nuclear_data/EAF2010data/eaf_haz_20100
+# gamma absorption data
+absorp  ../../nuclear_data/EAF2010data/eaf_abs_20100

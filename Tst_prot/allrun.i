@@ -1,0 +1,14 @@
+<< -----collapse, condense and print summary of library----- >>
+MONITOR 1
+LIBVERSION 0
+PROJ 3
+NOERROR
+SPEK
+GETXS 1 211
+GETDECAY 1
+FISPACT
+* EAF_DEC_99.00X/EAF_p_211_flt_20070/IFMIF
+PRINTLIB  0
+END
+* END OF PRINTLIB
+

@@ -1,0 +1,7 @@
+# index of nuclides to be included
+ind_nuc  ../../nuclear_data/TENDL2015data/tendl15_decay12_index
+
+# fluxes
+fluxes  fluxes.cnvlim1l
+arb_flux  fluxes172.in
+

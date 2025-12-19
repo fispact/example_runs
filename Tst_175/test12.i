@@ -1,0 +1,25 @@
+<< -----get nuclear data----- >>
+LIB 0
+GETXS 0
+GETDECAY 0
+FISPACT
+* IRRADIATION OF TI EEF FW 1.0 MW/M2
+<< -----set initial conditions----- >>
+DENSITY 4.54
+FUEL 5
+TI46 1.00619E24
+TI47 9.18148E23
+TI48 9.28210E24
+TI49 6.91755E23
+TI50 6.79178E23
+MIND 1.E5
+FLUX 4.27701E14
+ATOMS
+<< -----irradiation phase----- >>
+TIME 2.5 YEARS
+ATOMS
+FLUX 0.0
+ZERO
+END
+* END
+

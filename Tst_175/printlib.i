@@ -1,0 +1,10 @@
+<< print library data summary >>
+LIBVERSION 0
+GETXS 0
+GETDECAY 0
+FISPACT
+* PRINTLIB OF FW EEF
+PRINTLIB  2
+END
+* END OF PRINTLIB
+/*

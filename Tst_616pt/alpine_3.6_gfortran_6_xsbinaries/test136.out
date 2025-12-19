@@ -1,0 +1,158 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+  PROBABILITY TABLE INITIALISATION
+  ================================
+
+  Self shielding factors are computed using partial cross-sections
+
+  EAF library infinite dilution values are replaced by self-shielded probability table values
+
+  Probability table data directory: /nuclear_data/EAF2010data/eaf2010-n/tp294/
+
+  Temperature =  294K
+
+  Probability Table Application List
+  ----------------------------------
+  Nuclide     Data File
+  Ti 46       Ti046-294.tpe
+  Ti 47       Ti047-294.tpe
+  Ti 48       Ti048-294.tpe
+  Ti 49       Ti049-294.tpe
+  Ti 50       Ti050-294.tpe
+  W 180       W180-294.tpe
+  W 182       W182-294.tpe
+  W 183       W183-294.tpe
+  W 184       W184-294.tpe
+  W 186       W186-294.tpe
+
+  Material Mixture List
+  ---------------------
+  Nuclide     Percentage
+  Ti 46        7.631
+  Ti 47        6.882
+  Ti 48       68.193
+  Ti 49        5.004
+  Ti 50        4.792
+  W 180        0.003
+  W 182        0.751
+  W 183        0.405
+  W 184        0.868
+  W 186        0.806
+  Fe 54        0.273
+  Fe 56        4.279
+  Fe 57        0.099
+  Fe 58        0.013
+1
+1
+
+
+  P R O B A B I L I T Y  T A B L E  C H A N G E S  T O  C R O S S - S E C T I O N S
+  =================================================================================
+
+
+  The EAF/TENDL infinitely dilute values (old sigma) are replaced by the probability table effective cross-section (new sigma).
+  The effective self-shielding factor is the ratio of new to old value
+
+
+  parent     daughter     mt cal-mt    old sigma     new sigma     self shielding
+  nuclide    nuclide                    barns          barns         factor (%)
+  Ti 46      Ti 47       102    101    1.06530E-02    3.18467E-03         29.89
+  Ti 47      Ti 48       102    101    4.25544E-02    4.39454E-02        103.27
+  Ti 48      Ti 49       102    101    2.77666E-02    1.26225E-02         45.46
+  Ti 49      Ti 50       102    101    1.16209E-02    7.19350E-03         61.90
+  Ti 50      Ti 51       102    101    1.34744E-03    3.87994E-04         28.79
+  W 180      W 181       102    101    2.36042E+00    1.51481E+01        641.75
+  W 180      Hf177       107    101    1.38889E-04    1.51554E-04        109.12
+  W 180      Hf177m      107    101    8.25438E-07    8.25629E-07        100.02
+  W 180      Hf177n      107    101    1.80505E-09    1.80530E-09        100.01
+  W 182      W 183       102    101    2.10385E+00    6.21533E-01         29.54
+  W 182      W 183m      102    101    3.14997E-01    9.34877E-02         29.68
+  W 182      Hf179       107    101    7.26039E-05    7.25583E-05         99.94
+  W 182      Hf179m      107    101    7.78139E-06    7.76334E-06         99.77
+  W 182      Hf179n      107    101    2.85923E-07    2.85919E-07        100.00
+  W 183      W 184       102    101    3.41600E+00    1.12047E+00         32.80
+  W 183      Hf180       107    101    8.04463E-05    7.73579E-05         96.16
+  W 183      Hf180m      107    101    3.92752E-06    3.92575E-06         99.95
+  W 184      W 185       102    101    4.42228E-01    2.75462E-01         62.29
+  W 184      W 185m      102    101    9.81381E-04    7.82658E-04         79.75
+  W 184      Hf181       107    101    5.28951E-05    5.28923E-05         99.99
+  W 186      W 187       102    101    3.12173E+00    8.66032E-01         27.74
+  W 186      Hf183       107    101    3.14859E-05    3.14857E-05        100.00
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 17:49:05 17 January 2018                                                 |
+     | EAF source library label:    EAF-2010 616Gp THE EUROPEAN ACTI                                         |
+     | FLUX file label:             spherical model cell  10                                                 |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp:                                                                          |
+     | EAF source library label:                                                                             |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   17:49:05 17 January 2018                                                 |
+     | fileroot :                   test136                                                                  |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * COLLAPSE EAF_616_FLT                                                   |
+     |                                                                                                       |
+     | See the test136.log file                                                                              |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+fispact run time=                   7.3900     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ input( 5)       test136.i
+ crossunc( 7)    /nuclear_data/EAF2010data/eaf_un_20100
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     /nuclear_data/EAF2010data/eaf_index_20100
+ crossec(19)     /nuclear_data/EAF2010data/eaf_n_gxs_616_flt_20100
+ fluxes(20)      fluxes
+ output(38)      test136.out
+ runlog(48)      test136.log
+ prob_tab(51)    /nuclear_data/EAF2010data/eaf2010-n/tp294
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:17:49:05 17 January 2018        
+
+     Current time: 17:49:17 17 January 2018        

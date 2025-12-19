@@ -1,0 +1,11 @@
+<< combined collapse, condense and summary print >>
+LIBVERSION 0
+SPEK
+GETXS 1 175
+GETDECAY 1
+FISPACT
+* DEC_99.00X/175FUS_99/EEF121M.GPJ
+PRINTLIB  2
+END
+* END OF PRINTLIB
+/*

@@ -1,0 +1,9 @@
+<< -----condense decay data----- >>
+LIBVERSION 0
+SPEK
+GETDECAY 1
+FISPACT
+* DEC_99.00X/175FUS_99/EEF121M.GPJ
+END
+* END OF RUN
+/*

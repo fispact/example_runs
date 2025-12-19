@@ -1,0 +1,9 @@
+<< -----condense decay data----- >>
+LIBVERSION 0
+SPEK
+GETDECAY 1
+FISPACT
+* DEC_99.00X/172FIS_99/PALUEL.GP
+END
+* END OF RUN
+

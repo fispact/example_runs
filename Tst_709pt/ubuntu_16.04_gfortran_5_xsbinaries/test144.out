@@ -1,0 +1,124 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+  PROBABILITY TABLE INITIALISATION
+  ================================
+
+  Self shielding factors are computed using total cross-sections
+
+  EAF library infinite dilution values are replaced by self-shielded probability table values
+
+  Probability table data directory: /nuclear_data//TENDL2015data/tal2015-n/tp-709-294
+
+  Temperature =  294K
+
+  Probability Table Application List
+  ----------------------------------
+  Nuclide     Data File
+  W 182       W182-294.tpe
+  W 183       W183-294.tpe
+  W 184       W184-294.tpe
+  W 186       W186-294.tpe
+
+  Material Mixture List
+  ---------------------
+  Nuclide     Percentage
+  W 182       26.534
+  W 183       14.319
+  W 184       30.680
+  W 186       28.467
+1
+1
+
+
+  P R O B A B I L I T Y  T A B L E  C H A N G E S  T O  C R O S S - S E C T I O N S
+  =================================================================================
+
+
+  The EAF/TENDL infinitely dilute values (old sigma) are replaced by the probability table effective cross-section (new sigma).
+  The effective self-shielding factor is the ratio of new to old value
+
+
+  parent     daughter     mt cal-mt    old sigma     new sigma     self shielding
+  nuclide    nuclide                    barns          barns         factor (%)
+  W 182      W 182         2      2    3.23581E+00    3.15615E+00         97.54
+  W 182      W 183       102    101    6.68732E-02    2.60604E-02         38.97
+  W 182      W 183m      102    101    4.88539E-04    4.34879E-04         89.02
+  W 183      Hf180       107    101    7.10955E-04    7.10948E-04        100.00
+  W 183      W 183         2      2    2.88435E+00    2.83377E+00         98.25
+  W 183      W 184       102    101    5.68988E-02    2.51867E-02         44.27
+  W 184      W 184         2      2    3.09423E+00    3.01833E+00         97.55
+  W 184      W 185       102    101    9.99565E-03    6.16741E-03         61.70
+  W 184      W 185m      102    101    3.46107E-04    3.34007E-04         96.50
+  W 186      W 186         2      2    3.46535E+00    3.27472E+00         94.50
+  W 186      W 187       102    101    5.91903E-02    3.53703E-02         59.76
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 14:42:39 19 March 2021                                                   |
+     | EAF source library label:                                                                             |
+     | FLUX file label:             Position #3 Normalization Factor                                         |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp: 14:42:39 19 March 2021                                                   |
+     | EAF source library label:                                                                             |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   14:42:39 19 March 2021                                                   |
+     | fileroot :                   test144                                                                  |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * COLLAPSE tal-n/gxs-709 with tp-709-294                                 |
+     |                                                                                                       |
+     | See the test144.log file                                                                              |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+fispact run time=                   2.6167     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ output(38)      test144.out
+ runlog(48)      test144.log
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:14:42:39 19 March 2021          
+
+     Current time: 14:42:42 19 March 2021          

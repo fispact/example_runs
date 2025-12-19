@@ -1,0 +1,5 @@
+ind_nuc ../../nuclear_data/ENDFB71data/endfb71_index
+dk_endf ../../nuclear_data/ENDFB71data/decay
+fy_endf ../../nuclear_data/UKFY42data/ukfy4_2n
+sf_endf ../../nuclear_data/GEFY61data/gefy61_sfy
+arrayx ARRAYX

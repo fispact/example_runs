@@ -1,0 +1,11 @@
+<< combined flux conversion, collapse, condense and summary print >>
+LIBVERSION 0
+SPEK
+GRPCONVERT 99 172
+GETXS 1 172
+GETDECAY 1
+FISPACT
+* DEC_99.00X/172FIS_99/PALUEL.GP
+PRINTLIB  0
+END
+* END OF PRINTLIB

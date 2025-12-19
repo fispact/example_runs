@@ -1,0 +1,9 @@
+<< -----collapse cross section data----- >>
+LIBVERSION 0
+GETXS 1 315
+FISPACT
+* COLLAPSE 315FUS_99 WITH FW INERTIAL
+PRINTLIB 4
+END
+* END OF RUN
+

@@ -1,0 +1,18 @@
+# gamma attenuation data
+absorp  ../../nuclear_data/decay/abs_2012
+
+# index of nuclides to be included
+ind_nuc  ../../nuclear_data/TENDL2015data/tendl15_decay12_index
+
+# Library decay data
+dk_endf ../../nuclear_data/decay/decay_2012
+
+# Beta spectra JSONs
+betaspec ../../nuclear_data/betaspec
+
+# collapsed cross section data (in and out)
+collapxi  COLLAPX
+collapxo  COLLAPX
+
+# condensed decay and fission data (in and out)
+arrayx  ARRAYX

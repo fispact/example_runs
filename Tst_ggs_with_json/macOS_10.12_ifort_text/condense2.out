@@ -1,0 +1,111 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+
+
+ Energy bounds for gamma spectrum binning
+ ========================================
+   bin  lower energy  upper energy
+             eV            eV
+     1   1.00000E-05   1.00000E+04
+     2   1.00000E+04   2.00000E+04
+     3   2.00000E+04   5.00000E+04
+     4   5.00000E+04   1.00000E+05
+     5   1.00000E+05   2.00000E+05
+     6   2.00000E+05   3.00000E+05
+     7   3.00000E+05   4.00000E+05
+     8   4.00000E+05   6.00000E+05
+     9   6.00000E+05   7.00000E+05
+    10   7.00000E+05   8.00000E+05
+    11   8.00000E+05   9.00000E+05
+    12   9.00000E+05   1.00000E+06
+    13   1.00000E+06   1.22000E+06
+    14   1.22000E+06   1.44000E+06
+    15   1.44000E+06   1.66000E+06
+    16   1.66000E+06   2.00000E+06
+    17   2.00000E+06   2.20000E+06
+    18   2.20000E+06   2.40000E+06
+    19   2.40000E+06   2.60000E+06
+    20   2.60000E+06   2.80000E+06
+    21   2.80000E+06   3.00000E+06
+    22   3.00000E+06   3.50000E+06
+    23   3.50000E+06   4.00000E+06
+    24   4.00000E+06   5.00000E+06
+    25   5.00000E+06   6.50000E+06
+    26   6.50000E+06   8.00000E+06
+    27   8.00000E+06   1.00000E+07
+    28   1.00000E+07   1.20000E+07
+    29   1.20000E+07   1.40000E+07
+    30   1.40000E+07   2.00000E+07
+    31   2.00000E+07   4.00000E+07
+    32   4.00000E+07   1.00000E+08
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 11:16:56 2 November 2020                                                 |
+     | EAF source library label:                                                                             |
+     | FLUX file label:                                                                                      |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp: 11:16:56 2 November 2020                                                 |
+     | EAF source library label:    Decay input from separate files                                          |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   11:16:56 2 November 2020                                                 |
+     | fileroot :                   condense2                                                                |
+     | name of FILES file:          files2                                                                   |
+     | FISPACT title:               * CONDENSE dec_2012,gefy61_nfy                                           |
+     |                                                                                                       |
+     | See the condense2.log file                                                                            |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+fispact run time=                  0.32477     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ output(38)      condense2.out
+ runlog(48)      condense2.log
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:11:16:56 2 November 2020        
+
+     Current time: 11:16:57 2 November 2020        

@@ -1,0 +1,577 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 14:38:19 19 March 2021                                                   |
+     | EAF source library label:                                                                             |
+     | FLUX file label:             Position #3 Normalization Factor                                         |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp: 14:38:19 19 March 2021                                                   |
+     | EAF source library label:    Decay input from separate files                                          |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   14:38:19 19 March 2021                                                   |
+     | fileroot :                   simulation3                                                              |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * IRRADIATION OF BE EEF FW 1.0 MW/M2                                     |
+     |                                                                                                       |
+     | See the simulation3.log file                                                                          |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+
+
+
+
+                                   -------------------------------------------------------------------------------
+                                   | NB: IN FOLLOWING TABLES                                                     |
+                                   |                         ? MEANS CONVERGENCE NOT REACHED FOR NUCLIDE         |
+                                   |                         & MEANS GAMMA SPECTRUM IS APPROXIMATELY CALCULATED  |
+                                   |                         # MEANS NUCLIDE IS STABLE                           |
+                                   |                         > MEANS NUCLIDE WAS PRESENT BEFORE IRRADIATION      |
+                                   -------------------------------------------------------------------------------
+                                   |                                                                             |
+                                   |                                                                             |
+                                   V                                                                             V
+1 * * * TIME INTERVAL   1 * * * * * * * TIME IS   0.0000E+00 SECS * * * ELAPSED TIME IS   0.000ps   * * * FLUX AMP IS  1.1168E+10 /cm^2/s  * * * * * * * * * * * * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE                                                            
+                                                        kW          kW         kW         Sv/hr                                                              
+
+  Be  9    #> 6.68223E+25   1.000E+03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =    1
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 0.000000E+00  GAMMA BECQUERELS = 0.000000E+00
+0  TOTAL ACTIVITY FOR ALL MATERIALS     0.00000E+00 Bq
+   TOTAL ACTIVITY EXCLUDING TRITIUM     0.00000E+00 Bq
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL GAMMA HEAT PRODUCTION          0.00000E+00 kW              TOTAL HEAT PRODUCTION 0.00000E+00 kW
+0  INITIAL TOTAL MASS OF MATERIAL       1.00000E+00 kg              TOTAL HEAT EX TRITIUM 0.00000E+00 kW
+0  TOTAL MASS OF MATERIAL               1.00000E+00 kg
+   NEUTRON  FLUX DURING INTERVAL        1.11680E+10 n/cm^2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  Total Displacement Rate (n,Ddiss) =  3.94144E+12 Displacements/sec  =  5.89839E-14 Displacements Per Atom/sec  =  1.86139E-06 DPA/year
+   Total Displacement Rate (n,Dinel) =  0.00000E+00 Displacements/sec  =  0.00000E+00 Displacements Per Atom/sec  =  0.00000E+00 DPA/year
+   Total Displacement Rate (n,Del  ) =  1.54953E+14 Displacements/sec  =  2.31888E-12 Displacements Per Atom/sec  =  7.31783E-05 DPA/year
+   Total Displacement Rate (n,Dtot ) =  1.92483E+14 Displacements/sec  =  2.88053E-12 Displacements Per Atom/sec  =  9.09025E-05 DPA/year
+0  KERMA RATE (n,Kktot) =  2.23179E+18 eV/sec = 3.57573E-04 kW/kg = 6.60795E-07 kW/cm^3
+   KERMA RATE (n,Kphot) =  3.20484E+15 eV/sec = 5.13472E-07 kW/kg = 9.48897E-10 kW/cm^3
+   KERMA RATE (n,Kfiss) =  0.00000E+00 eV/sec = 0.00000E+00 kW/kg = 0.00000E+00 kW/cm^3
+   KERMA RATE (n,Kinel) =  0.00000E+00 eV/sec = 0.00000E+00 kW/kg = 0.00000E+00 kW/cm^3
+   KERMA RATE (n,Knone) =  1.75735E+18 eV/sec = 2.81559E-04 kW/kg = 5.20321E-07 kW/cm^3
+   KERMA RATE (n,Kel  ) =  4.71482E+17 eV/sec = 7.55397E-05 kW/kg = 1.39597E-07 kW/cm^3
+   KERMA RATE (n,Ktot ) =  2.22883E+18 eV/sec = 3.57099E-04 kW/kg = 6.59918E-07 kW/cm^3
+0  GAS   RATE (n,Xa   ) =  6.75699E+11 atoms per sec =  1.01119E-08 appm/sec
+   GAS   RATE (n,Xh   ) =  0.00000E+00 atoms per sec =  0.00000E+00 appm/sec
+   GAS   RATE (n,Xt   ) =  1.65701E+10 atoms per sec =  2.47972E-10 appm/sec
+   GAS   RATE (n,Xd   ) =  0.00000E+00 atoms per sec =  0.00000E+00 appm/sec
+   GAS   RATE (n,Xp   ) =  1.56300E+08 atoms per sec =  2.33904E-12 appm/sec
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    4       Be      6.6822E+25   1.1096E+02   1.0000E+03   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Calculated density (g/cc)    1.85
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             0.00000E+00
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     0.00000E+00    Total gammas (per cc per second)      0.00000E+00
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   0.00000E+00    Gammas per group (per cc per second)  0.00000E+00
+                                                     (  0.010-  0.020 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.020-  0.050 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.050-  0.100 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.100-  0.200 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.200-  0.300 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.300-  0.400 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.400-  0.600 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.600-  0.800 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.800-  1.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.000-  1.220 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.220-  1.440 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.440-  1.660 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.660-  2.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.000-  2.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+GAMMA SPECTRUM END
+
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            0.00000E+00 Sieverts/hour   ( 0.00000E+00 Rems/hour)
+
+
+ OVER:  Reaction from parent Be  9  to daughter Be 10 
+        cross-section changed from  2.73671E-06 to  1.41950E-04 barns
+
+ OVER:  Decay of nuclide H   3 
+        half-life changed from  3.89105E+08 to  1.94550E+08 seconds
+1 * * * TIME INTERVAL   2 * * * * * * * TIME IS   1.5779E+07 SECS OR  1.8262E+02 DAYS  * * * ELAPSED TIME IS 182.625 d   * * * FLUX AMP IS  1.1168E+10 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   HALF LIFE                                                
+                                                        kW          kW         kW         Sv/hr      seconds                                                 
+
+  H   1    #  2.46623E+15   4.127E-09   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  H   2    #  1.71945E+09   5.751E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  H   3       2.54260E+17   1.273E-06   9.059E+08   8.284E-10   0.00E+00   0.000E+00   0.000E+00   1.946E+08                                                
+  He  3    #  7.19587E+15   3.604E-08   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  He  4    #  1.06642E+19   7.088E-05   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  He  6   &   1.07584E+10   1.075E-13   9.228E+09   2.308E-06   0.00E+00   8.345E-09   1.125E-02   8.081E-01                                                
+  Li  6    #  1.45607E+17   1.454E-06   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Li  7    #  2.61456E+17   3.046E-06   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Li  9   &   4.02054E+07   6.027E-16   1.563E+08   1.426E-07   0.00E+00   7.486E-10   1.444E-03   1.783E-01                                                
+  Be  9    #> 6.68223E+25   1.000E+03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Be 10       1.67149E+15   2.779E-08   2.295E+01   9.272E-16   0.00E+00   0.000E+00   0.000E+00   5.049E+13                                                
+  B  10    #  1.81030E+08   3.010E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   12
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   2.78114E-01   0.00000E+00   4.13603E-01   1.53395E-03
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 1.029021E+10  GAMMA BECQUERELS = 0.000000E+00
+0  TOTAL ACTIVITY FOR ALL MATERIALS     1.02902E+10 Bq
+   TOTAL ACTIVITY EXCLUDING TRITIUM     9.38432E+09 Bq
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          2.45186E-06 kW
+   TOTAL GAMMA HEAT PRODUCTION          9.09333E-09 kW              TOTAL HEAT PRODUCTION 2.46095E-06 kW
+0  INITIAL TOTAL MASS OF MATERIAL       1.00000E+00 kg              TOTAL HEAT EX TRITIUM 2.46012E-06 kW
+0  TOTAL MASS OF MATERIAL               1.00000E+00 kg
+   NEUTRON  FLUX DURING INTERVAL        1.11680E+10 n/cm^2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  Total Displacement Rate (n,Ddiss) =  3.94144E+12 Displacements/sec  =  5.89839E-14 Displacements Per Atom/sec  =  1.86139E-06 DPA/year
+   Total Displacement Rate (n,Dinel) =  2.63355E+05 Displacements/sec  =  3.94113E-21 Displacements Per Atom/sec  =  1.24373E-13 DPA/year
+   Total Displacement Rate (n,Del  ) =  1.54953E+14 Displacements/sec  =  2.31888E-12 Displacements Per Atom/sec  =  7.31783E-05 DPA/year
+   Total Displacement Rate (n,Dtot ) =  1.92483E+14 Displacements/sec  =  2.88053E-12 Displacements Per Atom/sec  =  9.09025E-05 DPA/year
+0  KERMA RATE (n,Kktot) =  2.23179E+18 eV/sec = 3.57573E-04 kW/kg = 6.60795E-07 kW/cm^3
+   KERMA RATE (n,Kphot) =  3.20484E+15 eV/sec = 5.13472E-07 kW/kg = 9.48896E-10 kW/cm^3
+   KERMA RATE (n,Kfiss) =  0.00000E+00 eV/sec = 0.00000E+00 kW/kg = 0.00000E+00 kW/cm^3
+   KERMA RATE (n,Kinel) =  1.09324E+10 eV/sec = 1.75156E-12 kW/kg = 3.23688E-15 kW/cm^3
+   KERMA RATE (n,Knone) =  1.75735E+18 eV/sec = 2.81559E-04 kW/kg = 5.20321E-07 kW/cm^3
+   KERMA RATE (n,Kel  ) =  4.71482E+17 eV/sec = 7.55397E-05 kW/kg = 1.39597E-07 kW/cm^3
+   KERMA RATE (n,Ktot ) =  2.22883E+18 eV/sec = 3.57099E-04 kW/kg = 6.59918E-07 kW/cm^3
+0  GAS   RATE (n,Xa   ) =  6.75699E+11 atoms per sec =  1.01119E-08 appm/sec
+   GAS   RATE (n,Xh   ) =  0.00000E+00 atoms per sec =  0.00000E+00 appm/sec
+   GAS   RATE (n,Xt   ) =  1.65701E+10 atoms per sec =  2.47972E-10 appm/sec
+   GAS   RATE (n,Xd   ) =  9.37712E+02 atoms per sec =  1.40329E-17 appm/sec
+   GAS   RATE (n,Xp   ) =  1.56300E+08 atoms per sec =  2.33904E-12 appm/sec
+0  APPM OF He  4    =  1.5959E-01
+   APPM OF He  3    =  1.0769E-04
+   APPM OF H   3    =  3.8050E-03
+   APPM OF H   2    =  2.5732E-11
+   APPM OF H   1    =  3.6907E-05
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.5673E+17   4.2630E-07   1.2775E-06   1.3974E-04   8.2836E-10   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.0671E+19   1.7720E-05   7.0915E-05   3.8940E-01   2.3084E-06   1.4077E-03   8.3447E-09   0.0000E+00   0.0000E+00
+    3       Li      4.0706E+17   6.7594E-07   4.5004E-06   2.4063E-02   1.4265E-07   1.2629E-04   7.4865E-10   0.0000E+00   0.0000E+00
+    4       Be      6.6822E+25   1.1096E+02   1.0000E+03   1.5641E-10   9.2721E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    5       B       1.8103E+08   3.0061E-16   3.0100E-15   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Calculated density (g/cc)    1.85
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             1.53033E+10
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     5.67561E+07    Total gammas (per cc per second)      4.42146E+05
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   5.15417E+04    Gammas per group (per cc per second)  1.90498E+04
+                                                     (  0.010-  0.020 MeV)   1.47879E+05                                          1.82187E+04
+                                                     (  0.020-  0.050 MeV)   9.47449E+05                                          5.00253E+04
+                                                     (  0.050-  0.100 MeV)   2.83493E+06                                          6.98526E+04
+                                                     (  0.100-  0.200 MeV)   8.17117E+06                                          1.00669E+05
+                                                     (  0.200-  0.300 MeV)   8.73409E+06                                          6.45624E+04
+                                                     (  0.300-  0.400 MeV)   7.85434E+06                                          4.14709E+04
+                                                     (  0.400-  0.600 MeV)   1.18858E+07                                          4.39299E+04
+                                                     (  0.600-  0.800 MeV)   6.98830E+06                                          1.84491E+04
+                                                     (  0.800-  1.000 MeV)   3.86673E+06                                          7.93969E+03
+                                                     (  1.000-  1.220 MeV)   2.27764E+06                                          3.79196E+03
+                                                     (  1.220-  1.440 MeV)   1.22432E+06                                          1.70116E+03
+                                                     (  1.440-  1.660 MeV)   7.15821E+05                                          8.53443E+02
+                                                     (  1.660-  2.000 MeV)   6.62505E+05                                          6.69021E+02
+                                                     (  2.000-  2.500 MeV)   5.67759E+05                                          4.66319E+02
+                                                     (  2.500-  3.000 MeV)   3.43552E+05                                          2.30867E+02
+                                                     (  3.000-  4.000 MeV)   3.57383E+05                                          1.88698E+02
+                                                     (  4.000-  5.000 MeV)   1.34019E+05                                          5.50371E+01
+                                                     (  5.000-  6.500 MeV)   5.96260E+04                                          1.91633E+01
+                                                     (  6.500-  8.000 MeV)   1.19004E+04                                          3.03338E+00
+                                                     (  8.000- 10.000 MeV)   2.54031E+03                                          5.21610E-01
+                                                     ( 10.000- 12.000 MeV)   2.65856E+02                                          4.46638E-02
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+GAMMA SPECTRUM END
+
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            1.26985E-02 Sieverts/hour   ( 1.26985E+00 Rems/hour)
+
+
+ *** WARNING : >20% OF DOSE FROM NUCLIDES WITH NO SPECTRAL DATA. TREAT DOSE AND GAMMA SPECTRUM WITH CAUTION ***
+
+
+
+
+                                               DOMINANT NUCLIDES
+                                               -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE
+       Total   1.0290E+10             Total   2.4610E-06             Total   1.2699E-02
+    1  He  6   9.2280E+09  89.68E+00  He  6   2.3167E-06  94.14E+00  He  6   1.1254E-02  88.63E+00
+    2  H   3   9.0588E+08  88.03E-01  Li  9   1.4339E-07  58.27E-01  Li  9   1.4443E-03  11.37E+00
+    3  Li  9   1.5630E+08  15.19E-01  H   3   8.2836E-10  33.66E-03          0.0000E+00  00.00E+00
+    4  Be 10   2.2946E+01  22.30E-08  Be 10   9.2721E-16  37.68E-09          0.0000E+00  00.00E+00
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   9.0933E-09             Total   2.4519E-06
+    1  He  6   8.3447E-09  91.77E+00  He  6   2.3084E-06  94.15E+00
+    2  Li  9   7.4865E-10  82.33E-01  Li  9   1.4265E-07  58.18E-01
+    3          0.0000E+00  00.00E+00  H   3   8.2836E-10  33.79E-03
+    4          0.0000E+00  00.00E+00  Be 10   9.2721E-16  37.82E-09
+1
+                         P A T H W A Y   A N A L Y S I S   F O R   I R R A D I A T I O N   P H A S E
+                         ===========================================================================
+
+
+ no of steps        =      1
+ irradiation time   =  1.57788E+07 secs
+ flux               =  1.11680E+10 n/cm**2/s
+
+ path floor    =  5.00000E-01% of target inventory
+ loop floor    =  1.00000E+00% of path inventory
+ max depth     =   10    (maximum number of edges between source and target)
+
+ Pathways are given in order of decreasing dominance of target nuclides as ordered by the dominant nuclide tables above. Target nuclides at the end of the list
+ that do not appear above are those that appear in the dominant lists at later cooling time. Pathways are retained if they contribute more than the path floor
+ percentage of the number of target  atoms given by the rate equation solution for the time interval. Loops are retained in a pathway if they contribute more
+ than the loop floor percentage of the number of target atoms created along the pathway.
+ Pathways are analysed between the following source and target nuclides:
+
+ Source Nuclides
+  Be  9    
+
+ Target Nuclides
+  He  6      Li  9      H   3      Be 10    
+
+ Listed below are all significant paths and loops ordered by target nuclide. The first line for each target nuclide gives the nuclide name and the percentage
+ of the total number of atoms given by the number of significant paths shown. The first line for each pathway indentifies a path or loop, gives its number 
+ and its respective percentage contribution to the target nuclide inventory. The remainder of the line gives the nuclides  on the path (or loop) from
+ source to target, and the type of graph edge joining them. Edge types (r,R), (d,D) and (b,B) respectively denote reaction, decay and combined reaction
+ and decay edges from short and long lived parent. L and S denote short and long lived target nuclides. Short-lived nuclides have half lives less than
+ the time interval and long-lived have half live greater. Shown below each edge is a list showing the percentage that each reaction and decay make
+ towards the total rate for the edge for primary products. If the edge daughter is a secondary then isomeric state of the primary product of the reaction
+ decay is also displayed. Significant loops are displayed directly after their path, and their percentages are their part of the total path percentage.
+
+
+ Target nuclide He  6    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Be  9 ---(R)--- He  6 ---(S)--- 
+                    100.00%(n,a)                   
+
+ Target nuclide Li  9    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Be  9 ---(R)--- Li  9 ---(S)--- 
+                    100.00%(n,p)                   
+
+ Target nuclide H   3    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Be  9 ---(R)--- H   3 ---(L)--- 
+                    100.00%(n,t)                   
+
+ Target nuclide Be 10    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Be  9 ---(R)--- Be 10 ---(L)--- 
+                    100.00%(n,g)                   
+1 * * * TIME INTERVAL   3 * * * COOLING TIME IS   2.6193E+06 SECS OR  3.0316E+01 DAYS  * * * ELAPSED TIME IS  30.316 d   * * * FLUX AMP IS  0.0000E+00 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   HALF LIFE                                                
+                                                        kW          kW         kW         Sv/hr      seconds                                                 
+
+  H   1    #  2.46623E+15   4.127E-09   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  H   2    #  1.71945E+09   5.751E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  H   3       2.51898E+17   1.262E-06   8.975E+08   8.207E-10   0.00E+00   0.000E+00   0.000E+00   1.946E+08                                                
+  He  3    #  9.55758E+15   4.787E-08   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  He  4    #  1.06642E+19   7.088E-05   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Li  6    #  1.45607E+17   1.454E-06   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Li  7    #  2.61456E+17   3.046E-06   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Be  9    #> 6.68223E+25   1.000E+03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Be 10       1.67149E+15   2.779E-08   2.295E+01   9.272E-16   0.00E+00   0.000E+00   0.000E+00   5.049E+13                                                
+  B  10    #  2.41132E+08   4.009E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   10
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   2.42559E-02   0.00000E+00   1.38438E-04   0.00000E+00
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 8.974689E+08  GAMMA BECQUERELS = 0.000000E+00
+0  TOTAL ACTIVITY FOR ALL MATERIALS     8.97469E+08 Bq
+   TOTAL ACTIVITY EXCLUDING TRITIUM     2.29459E+01 Bq
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          8.20670E-10 kW
+   TOTAL GAMMA HEAT PRODUCTION          0.00000E+00 kW              TOTAL HEAT PRODUCTION 8.20670E-10 kW
+0  INITIAL TOTAL MASS OF MATERIAL       1.00000E+00 kg              TOTAL HEAT EX TRITIUM 9.27215E-16 kW
+0  TOTAL MASS OF MATERIAL               1.00000E+00 kg
+   NEUTRON  FLUX DURING INTERVAL        0.00000E+00 n/cm^2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  APPM OF He  4    =  1.5959E-01
+   APPM OF He  3    =  1.4303E-04
+   APPM OF H   3    =  3.7697E-03
+   APPM OF H   2    =  2.5732E-11
+   APPM OF H   1    =  3.6907E-05
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.5436E+17   4.2238E-07   1.2657E-06   1.3844E-04   8.2067E-10   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.0674E+19   1.7724E-05   7.0927E-05   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    3       Li      4.0706E+17   6.7594E-07   4.5004E-06   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    4       Be      6.6822E+25   1.1096E+02   1.0000E+03   1.5641E-10   9.2721E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    5       B       2.4113E+08   4.0041E-16   4.0093E-15   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Calculated density (g/cc)    1.85
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             5.12222E+06
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     0.00000E+00    Total gammas (per cc per second)      0.00000E+00
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   0.00000E+00    Gammas per group (per cc per second)  0.00000E+00
+                                                     (  0.010-  0.020 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.020-  0.050 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.050-  0.100 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.100-  0.200 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.200-  0.300 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.300-  0.400 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.400-  0.600 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.600-  0.800 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.800-  1.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.000-  1.220 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.220-  1.440 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.440-  1.660 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.660-  2.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.000-  2.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+GAMMA SPECTRUM END
+
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            0.00000E+00 Sieverts/hour   ( 0.00000E+00 Rems/hour)
+
+
+
+
+                                               DOMINANT NUCLIDES
+                                               -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE
+       Total   8.9747E+08             Total   8.2067E-10             Total   0.0000E+00
+    1  H   3   8.9747E+08  10.00E+01  H   3   8.2067E-10  10.00E+01          0.0000E+00  00.00E+00
+    2  Be 10   2.2946E+01  25.57E-07  Be 10   9.2721E-16  11.30E-05          0.0000E+00  00.00E+00
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   0.0000E+00             Total   8.2067E-10
+    1          0.0000E+00  00.00E+00  H   3   8.2067E-10  10.00E+01
+    2          0.0000E+00  00.00E+00  Be 10   9.2721E-16  11.30E-05
+
+ PARTITION: Inventory changes at time interval   4 elapsed time  5.23856E+06
+ --------------------------------------------------------------------------
+  element    atoms old   fraction kept   atoms new
+     H      2.52025E+17   0.00000E+00   0.00000E+00
+     He     1.06761E+19   0.00000E+00   0.00000E+00
+1 * * * TIME INTERVAL   4 * * * COOLING TIME IS   2.6193E+06 SECS OR  3.0316E+01 DAYS  * * * ELAPSED TIME IS  60.632 d   * * * FLUX AMP IS  0.0000E+00 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   HALF LIFE                                                
+                                                        kW          kW         kW         Sv/hr      seconds                                                 
+
+  Li  6    #  1.45607E+17   1.454E-06   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Li  7    #  2.61456E+17   3.046E-06   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Be  9    #> 6.68223E+25   1.000E+03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+  Be 10       1.67149E+15   2.779E-08   2.295E+01   9.272E-16   0.00E+00   0.000E+00   0.000E+00   5.049E+13                                                
+  B  10    #  3.01234E+08   5.009E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00     Stable                                                 
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =    5
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   6.20161E-10   0.00000E+00   1.56411E-10   0.00000E+00
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 2.294595E+01  GAMMA BECQUERELS = 0.000000E+00
+0  TOTAL ACTIVITY FOR ALL MATERIALS     2.29459E+01 Bq
+   TOTAL ACTIVITY EXCLUDING TRITIUM     2.29459E+01 Bq
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          9.27215E-16 kW
+   TOTAL GAMMA HEAT PRODUCTION          0.00000E+00 kW              TOTAL HEAT PRODUCTION 9.27215E-16 kW
+0  INITIAL TOTAL MASS OF MATERIAL       1.00000E+00 kg              TOTAL HEAT EX TRITIUM 9.27215E-16 kW
+0  TOTAL MASS OF MATERIAL               1.00000E+00 kg
+   NEUTRON  FLUX DURING INTERVAL        0.00000E+00 n/cm^2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    3       Li      4.0706E+17   6.7594E-07   4.5004E-06   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    4       Be      6.6822E+25   1.1096E+02   1.0000E+03   1.5641E-10   9.2721E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    5       B       3.0123E+08   5.0021E-16   5.0086E-15   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Calculated density (g/cc)    1.85
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             5.78722E+00
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     0.00000E+00    Total gammas (per cc per second)      0.00000E+00
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   0.00000E+00    Gammas per group (per cc per second)  0.00000E+00
+                                                     (  0.010-  0.020 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.020-  0.050 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.050-  0.100 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.100-  0.200 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.200-  0.300 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.300-  0.400 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.400-  0.600 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.600-  0.800 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.800-  1.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.000-  1.220 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.220-  1.440 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.440-  1.660 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.660-  2.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.000-  2.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+GAMMA SPECTRUM END
+
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            0.00000E+00 Sieverts/hour   ( 0.00000E+00 Rems/hour)
+
+
+
+
+                                               DOMINANT NUCLIDES
+                                               -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE
+       Total   2.2946E+01             Total   9.2721E-16             Total   0.0000E+00
+    1  Be 10   2.2946E+01  10.00E+01  Be 10   9.2721E-16  10.00E+01          0.0000E+00  00.00E+00
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   0.0000E+00             Total   9.2721E-16
+    1          0.0000E+00  00.00E+00  Be 10   9.2721E-16  10.00E+01
+1                                                            Summary Output
+
+0           Time       Cumulative   Activity               Dose rate             Heat output           Ingestion dose        Inhalation dose        Tritium activity
+           (step)       (Years)      (Bq)                   (Sv/h)                (kW)                    (Sv)                   (Sv)                  (Bq)
+ -----Irradiation Phase-----
+ Irradn   182.625 d     5.00E-01   1.03E+10 +/-    3.5%   1.27E-02 +/-    3.9%   2.46E-06 +/-    3.7%   0.00E+00 +/-    0.0%   0.00E+00 +/-    0.0%   9.06E+08
+ -----Cooling Phase-----
+ Cooling   30.316 d     8.30E-02   8.97E+08 +/-    8.1%   0.00E+00 +/-    0.0%   8.21E-10 +/-    8.1%   0.00E+00 +/-    0.0%   0.00E+00 +/-    0.0%   8.97E+08
+ Cooling   30.316 d     1.66E-01   2.29E+01 +/-   13.2%   0.00E+00 +/-    0.0%   9.27E-16 +/-   13.2%   0.00E+00 +/-    0.0%   0.00E+00 +/-    0.0%   0.00E+00
+0 Mass of material input =  1.0000E+00 kg.
+
+  Total irradiation time =  1.577880E+07 s
+  Total fluence          =  1.762172E+17 n/cm2
+  Mean flux              =  1.116797E+10 n/cm2/s
+  Number of on-times     =    1
+
+fispact run time=                   3.0273     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ output(38)      simulation3.out
+ runlog(48)      simulation3.log
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:14:38:19 19 March 2021          
+
+     Current time: 14:38:22 19 March 2021          

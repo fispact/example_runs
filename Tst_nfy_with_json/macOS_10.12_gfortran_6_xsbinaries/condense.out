@@ -1,0 +1,79 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp:                                                                          |
+     | EAF source library label:                                                                             |
+     | FLUX file label:                                                                                      |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp: 11:57:31 19 January 2018                                                 |
+     | EAF source library label:    Decay input from separate files                                          |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   11:57:31 19 January 2018                                                 |
+     | fileroot :                   condense                                                                 |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * CONDENSE dec_2012, TENDL2015-n/TENDL-nFY                               |
+     |                                                                                                       |
+     | See the condense.log file                                                                             |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+fispact run time=                   18.909     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ input( 5)       condense.i
+ arrayx(13)      ARRAYX
+ ind_nuc(18)     /Volumes/Pegasus/Code/FISPACT-II_dev/nuclear_data/TENDL2015data/tendl15_decay12_index
+ output(38)      condense.out
+ runlog(48)      condense.log
+ dk_endf(53)     /Volumes/Pegasus/Code/FISPACT-II_dev/nuclear_data/decay/decay_2012
+ fy_endf(54)     /Volumes/Pegasus/Code/FISPACT-II_dev/nuclear_data/GEFY61data/gefy61_nfy
+ sf_endf(55)     /Volumes/Pegasus/Code/FISPACT-II_dev/nuclear_data/GEFY61data/gefy61_sfy
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:11:57:31 19 January 2018        
+
+     Current time: 11:57:58 19 January 2018        

@@ -1,0 +1,10 @@
+<< -----collapse cross section data----- >>
+FULLXS
+LOGLEVEL 3
+GETXS 1 709
+FISPACT
+* COLLAPSE TENDL
+PRINTLIB 6
+PRINTLIB 4
+END
+* END OF RUN

@@ -1,0 +1,34 @@
+<< -----get nuclear data----- >>
+LIBVERSION 0
+GETXS 0
+GETDECAY 0
+FISPACT
+* IRRADIATION OF BE EEF FW 1.0 MW/M2
+<< -----set initial conditions----- >>
+MASS 1.0 1
+BE 100.0
+MIND 1.E5
+WALL 1.00
+ATOMS
+<< -----irradiation phase----- >>
+
+OVER BE9
+ACROSS BE10 1.4195E-4
+OVER H3
+ALAM 1.9455E8 1
+HALF
+DOSE 1
+UNCERT 3
+TIME 0.5 YEARS
+ATOMS
+FLUX 0.
+
+<< -----cooling phase----- >>
+ZERO
+TIME 0.083 YEARS ATOMS
+PARTITION 2
+H   0.
+HE  0.
+TIME 0.083 YEARS ATOMS
+END
+* END

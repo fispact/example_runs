@@ -1,0 +1,44 @@
+# gamma attenuation data
+absorp  ../../nuclear_data/decay/abs_2012
+
+# index of nuclides to be included
+ind_nuc  ../../nuclear_data/TENDL2015data/tendl15_decay12_index
+#ind_nuc  index.reduced
+
+ 
+# Library probability tables for self-shielding
+prob_tab  ../../nuclear_data/TENDL2015data/tal2015-n/tp-709-294
+
+# Library decay data
+dk_endf ../../nuclear_data/decay/decay_2012
+
+# Library fission data
+fy_endf ../../nuclear_data/GEFY61data/gefy61_nfy
+
+# Spontaneous fission data
+sf_endf ../../nuclear_data/GEFY61data/gefy61_sfy
+
+# Library regulatory data
+hazards ../../nuclear_data/decay/hazards_2012
+clear   ../../nuclear_data/decay/clear_2012
+a2data  ../../nuclear_data/decay/a2_2012
+
+
+# condensed decay and fission data (in and out)
+arrayx  ARRAYX
+
+# collapsed cross section data input: plasma spectrum
+fluxes fluxes.1
+xs_endf ../../nuclear_data/TENDL2015data/tal2015-n/gxs-709
+xs_endfb ../../nuclear_data/bin/tal2015-n.bin
+prob_tab  ../../nuclear_data/TENDL2015data/tal2015-n/tp-709-294
+collapxo COLLAPX.1
+collapxi COLLAPX.1
+
+# collapsed cross section data input: plasma spectrum
+fluxes fluxes.2
+xs_endf ../../nuclear_data/TENDL2015data/tal2015-n/gxs-709
+xs_endfb ../../nuclear_data/bin/tal2015-n.bin
+prob_tab  ../../nuclear_data/TENDL2015data/tal2015-n/tp-709-294
+collapxo COLLAPX.2
+collapxi COLLAPX.2

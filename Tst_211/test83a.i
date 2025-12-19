@@ -1,0 +1,33 @@
+<< -----get nuclear data----- >>
+MONITOR 1
+GETXS 0
+GETDECAY 0
+FISPACT
+* IRRADIATION OF FE + U EEF 175 FW 1.0 MW/M2
+<< -----set initial conditions----- >>
+MASS 1.0 2
+Fe 99.9999
+U   0.0001
+MIND 1.E5
+WALL 1.00
+USEFISS
+ATOMS
+HAZA
+HALF
+ATWO
+UNCERT 2
+DOSE 1
+<< -----irradiation phase----- >>
+TIME 2.5 YEARS
+ATOMS
+<< -----cooling phase----- >>
+FLUX 0.
+TIME 1 MINS ATOMS
+TIME 1 HOURS ATOMS
+TIME 1 DAYS ATOMS
+TIME 7 DAYS ATOMS
+TIME 1 YEARS ATOMS
+TIME 5000 YEARS ATOMS
+ZERO
+END
+* END

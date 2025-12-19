@@ -1,0 +1,8 @@
+<< convert 175-group fluxes to 616 groups >>
+LIBVERSION 0
+GRPC 175 616
+FISPACT
+* SPECTRAL MODIFICATION 175 - 616
+END
+* END
+

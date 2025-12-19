@@ -1,0 +1,12 @@
+<< get condensed decay data>>
+MONITOR 1
+LIBV 0
+PROJ 2
+NOERROR
+SPEK
+GETDECAY 1
+FISPACT
+* EAF_DEC_20070
+END
+* END OF RUN
+

@@ -1,0 +1,7 @@
+<< -----collapse cross section data----- >>
+LIBVERSION 0
+GETXS 1 172
+FISPACT
+* COLLAPSE 172FIS_99 WITH PWR PALUEL.GP
+END
+* END OF RUN

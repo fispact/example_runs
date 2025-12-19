@@ -1,0 +1,21 @@
+# FILES file for initialising three COLLAPX collaped libraries
+
+# index of nuclides to be included in calculation
+ind_nuc  ../../nuclear_data/EAF2010data/eaf_index_20100
+
+# element gamma dose data
+absorp ../../nuclear_data/EAF2010data/eaf_abs_20100
+
+# library decay data
+decay ../../nuclear_data/EAF2010data/eaf_dec_20100.001
+# condensed decay data
+arrayx ARRAYX
+
+# first heating phase step collapsed cross sections
+collapxi  COLLAPX.01
+
+# second heating phase step
+collapxi  COLLAPX.02
+
+# third heating phase step
+collapxi  COLLAPX.03

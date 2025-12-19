@@ -1,0 +1,43 @@
+# FILES file for initialising three COLLAPX collaped libraries and the
+# condensed decay library, and using them in an inventory calculation
+
+# index of nuclides to be included in calculation
+ind_nuc  ../../nuclear_data/EAF2010data/eaf_index_20100
+
+# element gamma dose data
+absorp ../../nuclear_data/EAF2010data/eaf_abs_20100
+
+# library decay data
+decay ../../nuclear_data/EAF2010data/eaf_dec_20100.001
+
+# fission data
+fissyld  ../../nuclear_data/EAF2010data/eaf_n_fis_20100
+asscfy  ../../nuclear_data/EAF2010data/eaf_n_asscfy_20100
+
+# condensed decay data
+arrayx ARRAYX
+
+# first collapse
+#input
+fluxes  fluxes.01
+crossec  ../../nuclear_data/EAF2010data/eaf_n_gxs_069_fis_20100
+crossunc  ../../nuclear_data/EAF2010data/eaf_un_20100
+#output
+collapxo  COLLAPX.04
+
+
+# second collapse
+#input
+fluxes  fluxes.02
+crossec  ../../nuclear_data/EAF2010data/eaf_n_gxs_069_fis_20100
+crossunc  ../../nuclear_data/EAF2010data/eaf_un_20100
+#output
+collapxo  COLLAPX.05
+
+# third collapse
+#input
+fluxes  fluxes.03
+crossec  ../../nuclear_data/EAF2010data/eaf_n_gxs_069_fis_20100
+crossunc  ../../nuclear_data/EAF2010data/eaf_un_20100
+#output
+collapxo  COLLAPX.06

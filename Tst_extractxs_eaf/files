@@ -1,0 +1,12 @@
+# gamma attenuation data
+absorp  ../../nuclear_data/EAF2010data/eaf_abs_20100
+
+# index of nuclides to be included
+ind_nuc  ../../nuclear_data/EAF2010data/eaf_index_20100
+
+# Library cross section data
+crossec ../../nuclear_data/EAF2010data/eaf_n_gxs_175_fus_20100
+crossunc ../../nuclear_data/EAF2010data/eaf_un_20100
+
+#fluxes
+fluxes  fluxes

@@ -1,0 +1,751 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp:                                                                          |
+     | EAF source library label:                                                                             |
+     | FLUX file label:                                                                                      |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp:                                                                          |
+     | EAF source library label:                                                                             |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   12:40:08 29 January 2018                                                 |
+     | fileroot :                   convert                                                                  |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * SPECTRAL MODIFICATION 211-162 proton                                   |
+     |                                                                                                       |
+     | See the convert.log file                                                                              |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+  CONVERSION OF ARBITRARY FLUX INTO STANDARD GROUP STRUCTURE
+
+  Number of input arbitrary energy groups  =  211
+  Number of output standard energy groups  =  162
+
+ Fraction 1.0000 of input group   1 included in output group  31
+ Fraction 1.0000 of input group   2 included in output group  32
+ Fraction 1.0000 of input group   3 included in output group  32
+ Fraction 1.0000 of input group   4 included in output group  32
+ Fraction 1.0000 of input group   5 included in output group  32
+ Fraction 1.0000 of input group   6 included in output group  33
+ Fraction 1.0000 of input group   7 included in output group  33
+ Fraction 1.0000 of input group   8 included in output group  33
+ Fraction 1.0000 of input group   9 included in output group  33
+ Fraction 1.0000 of input group  10 included in output group  33
+ Fraction 1.0000 of input group  11 included in output group  34
+ Fraction 1.0000 of input group  12 included in output group  34
+ Fraction 1.0000 of input group  13 included in output group  34
+ Fraction 1.0000 of input group  14 included in output group  34
+ Fraction 1.0000 of input group  15 included in output group  34
+ Fraction 1.0000 of input group  16 included in output group  35
+ Fraction 1.0000 of input group  17 included in output group  35
+ Fraction 1.0000 of input group  18 included in output group  35
+ Fraction 1.0000 of input group  19 included in output group  35
+ Fraction 1.0000 of input group  20 included in output group  35
+ Fraction 1.0000 of input group  21 included in output group  36
+ Fraction 1.0000 of input group  22 included in output group  36
+ Fraction 1.0000 of input group  23 included in output group  36
+ Fraction 1.0000 of input group  24 included in output group  36
+ Fraction 1.0000 of input group  25 included in output group  36
+ Fraction 1.0000 of input group  26 included in output group  37
+ Fraction 1.0000 of input group  27 included in output group  37
+ Fraction 1.0000 of input group  28 included in output group  38
+ Fraction 1.0000 of input group  29 included in output group  38
+ Fraction 1.0000 of input group  30 included in output group  39
+ Fraction 1.0000 of input group  31 included in output group  39
+ Fraction 1.0000 of input group  32 included in output group  40
+ Fraction 1.0000 of input group  33 included in output group  40
+ Fraction 1.0000 of input group  34 included in output group  41
+ Fraction 1.0000 of input group  35 included in output group  41
+ Fraction 1.0000 of input group  36 included in output group  42
+ Fraction 0.2652 of input group  37 included in output group  42
+ Fraction 0.4325 of input group  37 included in output group  43
+ Fraction 0.3023 of input group  37 included in output group  44
+ Fraction 0.7749 of input group  38 included in output group  44
+ Fraction 0.2251 of input group  38 included in output group  45
+ Fraction 1.0000 of input group  39 included in output group  45
+ Fraction 0.5999 of input group  40 included in output group  45
+ Fraction 0.4001 of input group  40 included in output group  46
+ Fraction 0.8906 of input group  41 included in output group  46
+ Fraction 0.1094 of input group  41 included in output group  47
+ Fraction 1.0000 of input group  42 included in output group  47
+ Fraction 1.0000 of input group  43 included in output group  47
+ Fraction 0.5411 of input group  44 included in output group  47
+ Fraction 0.4589 of input group  44 included in output group  48
+ Fraction 1.0000 of input group  45 included in output group  48
+ Fraction 0.7528 of input group  46 included in output group  48
+ Fraction 0.2472 of input group  46 included in output group  49
+ Fraction 1.0000 of input group  47 included in output group  49
+ Fraction 1.0000 of input group  48 included in output group  49
+ Fraction 0.3535 of input group  49 included in output group  49
+ Fraction 0.6465 of input group  49 included in output group  50
+ Fraction 1.0000 of input group  50 included in output group  50
+ Fraction 0.0938 of input group  51 included in output group  50
+ Fraction 0.9062 of input group  51 included in output group  51
+ Fraction 1.0000 of input group  52 included in output group  51
+ Fraction 0.4041 of input group  53 included in output group  52
+ Fraction 0.4124 of input group  53 included in output group  53
+ Fraction 0.1836 of input group  53 included in output group  54
+ Fraction 0.2375 of input group  54 included in output group  54
+ Fraction 0.4301 of input group  54 included in output group  55
+ Fraction 0.3324 of input group  54 included in output group  56
+ Fraction 0.1072 of input group  55 included in output group  56
+ Fraction 0.4495 of input group  55 included in output group  57
+ Fraction 0.4433 of input group  55 included in output group  58
+ Fraction 0.0165 of input group  56 included in output group  58
+ Fraction 0.4706 of input group  56 included in output group  59
+ Fraction 0.4820 of input group  56 included in output group  60
+ Fraction 0.0310 of input group  56 included in output group  61
+ Fraction 0.4629 of input group  57 included in output group  61
+ Fraction 0.5064 of input group  57 included in output group  62
+ Fraction 0.0308 of input group  57 included in output group  63
+ Fraction 0.4887 of input group  58 included in output group  63
+ Fraction 0.5113 of input group  58 included in output group  64
+ Fraction 0.0221 of input group  59 included in output group  64
+ Fraction 0.5480 of input group  59 included in output group  65
+ Fraction 0.4299 of input group  59 included in output group  66
+ Fraction 0.1335 of input group  60 included in output group  66
+ Fraction 0.5798 of input group  60 included in output group  67
+ Fraction 0.2868 of input group  60 included in output group  68
+ Fraction 0.9310 of input group  61 included in output group  68
+ Fraction 0.0690 of input group  61 included in output group  69
+ Fraction 0.8886 of input group  62 included in output group  69
+ Fraction 0.1114 of input group  62 included in output group  70
+ Fraction 0.5607 of input group  63 included in output group  70
+ Fraction 0.4393 of input group  63 included in output group  71
+ Fraction 0.2165 of input group  64 included in output group  71
+ Fraction 0.6780 of input group  64 included in output group  72
+ Fraction 0.1054 of input group  64 included in output group  73
+ Fraction 0.5964 of input group  65 included in output group  73
+ Fraction 0.4036 of input group  65 included in output group  74
+ Fraction 0.3237 of input group  66 included in output group  74
+ Fraction 0.6763 of input group  66 included in output group  75
+ Fraction 0.0785 of input group  67 included in output group  75
+ Fraction 0.7844 of input group  67 included in output group  76
+ Fraction 0.1371 of input group  67 included in output group  77
+ Fraction 0.6794 of input group  68 included in output group  77
+ Fraction 0.3206 of input group  68 included in output group  78
+ Fraction 0.5306 of input group  69 included in output group  78
+ Fraction 0.4694 of input group  69 included in output group  79
+ Fraction 0.2098 of input group  70 included in output group  79
+ Fraction 0.4652 of input group  70 included in output group  80
+ Fraction 0.3250 of input group  70 included in output group  81
+ Fraction 0.1629 of input group  71 included in output group  81
+ Fraction 0.3175 of input group  71 included in output group  82
+ Fraction 0.3279 of input group  71 included in output group  83
+ Fraction 0.1917 of input group  71 included in output group  84
+ Fraction 0.1473 of input group  72 included in output group  84
+ Fraction 0.3509 of input group  72 included in output group  85
+ Fraction 0.3637 of input group  72 included in output group  86
+ Fraction 0.1381 of input group  72 included in output group  87
+ Fraction 0.4786 of input group  73 included in output group  87
+ Fraction 0.5214 of input group  73 included in output group  88
+ Fraction 0.2630 of input group  74 included in output group  88
+ Fraction 0.7370 of input group  74 included in output group  89
+ Fraction 0.0794 of input group  75 included in output group  89
+ Fraction 0.8512 of input group  75 included in output group  90
+ Fraction 0.0693 of input group  75 included in output group  91
+ Fraction 0.8197 of input group  76 included in output group  91
+ Fraction 0.1803 of input group  76 included in output group  92
+ Fraction 0.7501 of input group  77 included in output group  92
+ Fraction 0.2499 of input group  77 included in output group  93
+ Fraction 0.7259 of input group  78 included in output group  93
+ Fraction 0.2741 of input group  78 included in output group  94
+ Fraction 1.0000 of input group  79 included in output group  94
+ Fraction 0.5106 of input group  80 included in output group  94
+ Fraction 0.4894 of input group  80 included in output group  95
+ Fraction 1.0000 of input group  81 included in output group  95
+ Fraction 1.0000 of input group  82 included in output group  95
+ Fraction 0.7496 of input group  83 included in output group  95
+ Fraction 0.2504 of input group  83 included in output group  96
+ Fraction 0.9763 of input group  84 included in output group  96
+ Fraction 0.0237 of input group  84 included in output group  97
+ Fraction 1.0000 of input group  85 included in output group  97
+ Fraction 0.1888 of input group  86 included in output group  97
+ Fraction 0.8112 of input group  86 included in output group  98
+ Fraction 0.4796 of input group  87 included in output group  98
+ Fraction 0.5204 of input group  87 included in output group  99
+ Fraction 0.8594 of input group  88 included in output group  99
+ Fraction 0.1406 of input group  88 included in output group 100
+ Fraction 1.0000 of input group  89 included in output group 100
+ Fraction 0.3415 of input group  90 included in output group 100
+ Fraction 0.6585 of input group  90 included in output group 101
+ Fraction 0.9424 of input group  91 included in output group 101
+ Fraction 0.0576 of input group  91 included in output group 102
+ Fraction 1.0000 of input group  92 included in output group 102
+ Fraction 0.6826 of input group  93 included in output group 102
+ Fraction 0.3174 of input group  93 included in output group 103
+ Fraction 1.0000 of input group  94 included in output group 103
+ Fraction 0.5888 of input group  95 included in output group 103
+ Fraction 0.4112 of input group  95 included in output group 104
+ Fraction 1.0000 of input group  96 included in output group 104
+ Fraction 0.6960 of input group  97 included in output group 104
+ Fraction 0.3040 of input group  97 included in output group 105
+ Fraction 1.0000 of input group  98 included in output group 105
+ Fraction 0.0621 of input group  99 included in output group 105
+ Fraction 0.6076 of input group  99 included in output group 106
+ Fraction 0.3303 of input group  99 included in output group 107
+ Fraction 0.2093 of input group 100 included in output group 107
+ Fraction 0.4572 of input group 100 included in output group 108
+ Fraction 0.3335 of input group 100 included in output group 109
+ Fraction 0.1589 of input group 101 included in output group 109
+ Fraction 0.5634 of input group 101 included in output group 110
+ Fraction 0.2777 of input group 101 included in output group 111
+ Fraction 0.3021 of input group 102 included in output group 111
+ Fraction 0.5971 of input group 102 included in output group 112
+ Fraction 0.1009 of input group 102 included in output group 113
+ Fraction 0.5146 of input group 103 included in output group 113
+ Fraction 0.4854 of input group 103 included in output group 114
+ Fraction 0.1496 of input group 104 included in output group 114
+ Fraction 0.6558 of input group 104 included in output group 115
+ Fraction 0.1947 of input group 104 included in output group 116
+ Fraction 0.4834 of input group 105 included in output group 116
+ Fraction 0.5166 of input group 105 included in output group 117
+ Fraction 0.1852 of input group 106 included in output group 117
+ Fraction 0.7274 of input group 106 included in output group 118
+ Fraction 0.0875 of input group 106 included in output group 119
+ Fraction 0.6674 of input group 107 included in output group 119
+ Fraction 0.3326 of input group 107 included in output group 120
+ Fraction 0.4518 of input group 108 included in output group 120
+ Fraction 0.5482 of input group 108 included in output group 121
+ Fraction 0.2682 of input group 109 included in output group 121
+ Fraction 0.7318 of input group 109 included in output group 122
+ Fraction 0.1194 of input group 110 included in output group 122
+ Fraction 0.8806 of input group 110 included in output group 123
+ Fraction 0.0084 of input group 111 included in output group 123
+ Fraction 0.9304 of input group 111 included in output group 124
+ Fraction 0.0612 of input group 111 included in output group 125
+ Fraction 0.9147 of input group 112 included in output group 125
+ Fraction 0.0853 of input group 112 included in output group 126
+ Fraction 0.4703 of input group 113 included in output group 126
+ Fraction 0.5297 of input group 113 included in output group 127
+ Fraction 0.0109 of input group 114 included in output group 127
+ Fraction 0.5716 of input group 114 included in output group 128
+ Fraction 0.4175 of input group 114 included in output group 129
+ Fraction 0.3775 of input group 115 included in output group 129
+ Fraction 0.6225 of input group 115 included in output group 130
+ Fraction 0.6683 of input group 116 included in output group 130
+ Fraction 0.3317 of input group 116 included in output group 131
+ Fraction 0.5241 of input group 117 included in output group 131
+ Fraction 0.4759 of input group 117 included in output group 132
+ Fraction 0.2652 of input group 118 included in output group 132
+ Fraction 0.7348 of input group 118 included in output group 133
+ Fraction 0.5653 of input group 119 included in output group 133
+ Fraction 0.4347 of input group 119 included in output group 134
+ Fraction 1.0000 of input group 120 included in output group 134
+ Fraction 1.0000 of input group 121 included in output group 134
+ Fraction 1.0000 of input group 122 included in output group 134
+ Fraction 0.5110 of input group 123 included in output group 134
+ Fraction 0.4890 of input group 123 included in output group 135
+ Fraction 0.4966 of input group 124 included in output group 135
+ Fraction 0.5034 of input group 124 included in output group 136
+ Fraction 0.5940 of input group 125 included in output group 136
+ Fraction 0.4060 of input group 125 included in output group 137
+ Fraction 1.0000 of input group 126 included in output group 137
+ Fraction 0.3343 of input group 127 included in output group 137
+ Fraction 0.6657 of input group 127 included in output group 138
+ Fraction 1.0000 of input group 128 included in output group 138
+ Fraction 0.2405 of input group 129 included in output group 138
+ Fraction 0.7595 of input group 129 included in output group 139
+ Fraction 1.0000 of input group 130 included in output group 139
+ Fraction 0.3477 of input group 131 included in output group 139
+ Fraction 0.6523 of input group 131 included in output group 140
+ Fraction 1.0000 of input group 132 included in output group 140
+ Fraction 0.7033 of input group 133 included in output group 140
+ Fraction 0.2967 of input group 133 included in output group 141
+ Fraction 1.0000 of input group 134 included in output group 141
+ Fraction 1.0000 of input group 135 included in output group 141
+ Fraction 0.3740 of input group 136 included in output group 141
+ Fraction 0.6260 of input group 136 included in output group 142
+ Fraction 1.0000 of input group 137 included in output group 142
+ Fraction 1.0000 of input group 138 included in output group 142
+ Fraction 0.4570 of input group 139 included in output group 142
+ Fraction 0.5430 of input group 139 included in output group 143
+ Fraction 1.0000 of input group 140 included in output group 143
+ Fraction 0.8414 of input group 141 included in output group 143
+ Fraction 0.1586 of input group 141 included in output group 144
+ Fraction 0.2517 of input group 142 included in output group 144
+ Fraction 0.4325 of input group 142 included in output group 145
+ Fraction 0.3158 of input group 142 included in output group 146
+ Fraction 0.3724 of input group 143 included in output group 146
+ Fraction 0.6276 of input group 143 included in output group 147
+ Fraction 0.8306 of input group 144 included in output group 147
+ Fraction 0.1694 of input group 144 included in output group 148
+ Fraction 0.5900 of input group 145 included in output group 148
+ Fraction 0.4100 of input group 145 included in output group 149
+ Fraction 0.4277 of input group 146 included in output group 149
+ Fraction 0.5723 of input group 146 included in output group 150
+ Fraction 0.2054 of input group 147 included in output group 150
+ Fraction 0.4574 of input group 147 included in output group 151
+ Fraction 0.3372 of input group 147 included in output group 152
+ Fraction 0.3734 of input group 148 included in output group 152
+ Fraction 0.6266 of input group 148 included in output group 153
+ Fraction 0.3865 of input group 149 included in output group 153
+ Fraction 0.6135 of input group 149 included in output group 154
+ Fraction 0.2294 of input group 150 included in output group 154
+ Fraction 0.7706 of input group 150 included in output group 155
+ Fraction 0.1226 of input group 151 included in output group 155
+ Fraction 0.7630 of input group 151 included in output group 156
+ Fraction 0.1143 of input group 151 included in output group 157
+ Fraction 1.0000 of input group 152 included in output group 157
+ Fraction 0.5357 of input group 153 included in output group 157
+ Fraction 0.4643 of input group 153 included in output group 158
+ Fraction 1.0000 of input group 154 included in output group 158
+ Fraction 1.0000 of input group 155 included in output group 158
+ Fraction 0.8293 of input group 156 included in output group 158
+ Fraction 0.1707 of input group 156 included in output group 159
+ Fraction 1.0000 of input group 157 included in output group 159
+ Fraction 1.0000 of input group 158 included in output group 159
+ Fraction 1.0000 of input group 159 included in output group 159
+ Fraction 0.7169 of input group 160 included in output group 159
+ Fraction 0.2831 of input group 160 included in output group 160
+ Fraction 1.0000 of input group 161 included in output group 160
+ Fraction 0.0092 of input group 162 included in output group 160
+ Fraction 0.9908 of input group 162 included in output group 161
+ Fraction 1.0000 of input group 163 included in output group 161
+ Fraction 0.3851 of input group 164 included in output group 161
+ Fraction 0.6149 of input group 164 included in output group 162
+ Fraction 1.0000 of input group 165 included in output group 162
+ Fraction 1.0000 of input group 166 included in output group 162
+ Fraction 0.4036 of input group 167 included in output group 162
+1   INPUT GROUP STRUCTURE AND DATA
+
+  GROUP      UPPER       LOWER         LETHARGY         DATA        DATA/LETHARGY
+
+     1     5.5000E+07  5.4000E+07     1.8349E-02     0.0000E+00     0.0000E+00
+     2     5.4000E+07  5.3000E+07     1.8692E-02     0.0000E+00     0.0000E+00
+     3     5.3000E+07  5.2000E+07     1.9048E-02     0.0000E+00     0.0000E+00
+     4     5.2000E+07  5.1000E+07     1.9418E-02     0.0000E+00     0.0000E+00
+     5     5.1000E+07  5.0000E+07     1.9803E-02     0.0000E+00     0.0000E+00
+     6     5.0000E+07  4.9000E+07     2.0203E-02     0.0000E+00     0.0000E+00
+     7     4.9000E+07  4.8000E+07     2.0619E-02     0.0000E+00     0.0000E+00
+     8     4.8000E+07  4.7000E+07     2.1053E-02     0.0000E+00     0.0000E+00
+     9     4.7000E+07  4.6000E+07     2.1506E-02     0.0000E+00     0.0000E+00
+    10     4.6000E+07  4.5000E+07     2.1979E-02     0.0000E+00     0.0000E+00
+    11     4.5000E+07  4.4000E+07     2.2473E-02     0.0000E+00     0.0000E+00
+    12     4.4000E+07  4.3000E+07     2.2990E-02     0.0000E+00     0.0000E+00
+    13     4.3000E+07  4.2000E+07     2.3530E-02     0.0000E+00     0.0000E+00
+    14     4.2000E+07  4.1000E+07     2.4098E-02     0.0000E+00     0.0000E+00
+    15     4.1000E+07  4.0000E+07     2.4693E-02     0.0000E+00     0.0000E+00
+    16     4.0000E+07  3.9000E+07     2.5318E-02     3.8221E+14     1.5097E+16
+    17     3.9000E+07  3.8000E+07     2.5975E-02     3.7486E+14     1.4431E+16
+    18     3.8000E+07  3.7000E+07     2.6668E-02     3.6780E+14     1.3792E+16
+    19     3.7000E+07  3.6000E+07     2.7399E-02     3.6007E+14     1.3142E+16
+    20     3.6000E+07  3.5000E+07     2.8171E-02     3.5267E+14     1.2519E+16
+    21     3.5000E+07  3.4000E+07     2.8988E-02     3.4514E+14     1.1906E+16
+    22     3.4000E+07  3.3000E+07     2.9853E-02     3.3752E+14     1.1306E+16
+    23     3.3000E+07  3.2000E+07     3.0772E-02     3.3024E+14     1.0732E+16
+    24     3.2000E+07  3.1000E+07     3.1749E-02     3.2232E+14     1.0152E+16
+    25     3.1000E+07  3.0000E+07     3.2790E-02     3.1478E+14     9.6000E+15
+    26     3.0000E+07  2.9000E+07     3.3902E-02     3.0704E+14     9.0568E+15
+    27     2.9000E+07  2.8000E+07     3.5091E-02     2.9915E+14     8.5250E+15
+    28     2.8000E+07  2.7000E+07     3.6368E-02     2.9166E+14     8.0197E+15
+    29     2.7000E+07  2.6000E+07     3.7740E-02     2.8334E+14     7.5077E+15
+    30     2.6000E+07  2.5000E+07     3.9221E-02     2.7549E+14     7.0241E+15
+    31     2.5000E+07  2.4000E+07     4.0822E-02     2.6742E+14     6.5508E+15
+    32     2.4000E+07  2.3000E+07     4.2560E-02     2.5920E+14     6.0903E+15
+    33     2.3000E+07  2.2000E+07     4.4452E-02     2.5147E+14     5.6572E+15
+    34     2.2000E+07  2.1000E+07     4.6520E-02     2.4275E+14     5.2181E+15
+    35     2.1000E+07  2.0000E+07     4.8790E-02     2.3461E+14     4.8085E+15
+    36     2.0000E+07  1.9640E+07     1.8149E-02     8.2408E+13     4.5407E+15
+    37     1.9640E+07  1.7332E+07     1.2500E-01     5.0229E+14     4.0183E+15
+    38     1.7332E+07  1.6905E+07     2.4998E-02     8.8189E+13     3.5279E+15
+    39     1.6905E+07  1.6487E+07     2.5001E-02     8.4474E+13     3.3787E+15
+    40     1.6487E+07  1.5683E+07     5.0001E-02     1.5850E+14     3.1699E+15
+    41     1.5683E+07  1.4918E+07     5.0002E-02     1.4542E+14     2.9084E+15
+    42     1.4918E+07  1.4550E+07     2.4998E-02     6.8163E+13     2.7268E+15
+    43     1.4550E+07  1.4191E+07     2.4997E-02     6.5303E+13     2.6124E+15
+    44     1.4191E+07  1.3840E+07     2.5002E-02     6.2622E+13     2.5047E+15
+    45     1.3840E+07  1.3499E+07     2.4999E-02     5.9962E+13     2.3986E+15
+    46     1.3499E+07  1.2840E+07     4.9997E-02     1.1256E+14     2.2513E+15
+    47     1.2840E+07  1.2523E+07     2.5006E-02     5.2781E+13     2.1108E+15
+    48     1.2523E+07  1.2214E+07     2.5000E-02     5.0567E+13     2.0227E+15
+    49     1.2214E+07  1.1618E+07     5.0001E-02     9.4963E+13     1.8992E+15
+    50     1.1618E+07  1.1052E+07     4.9997E-02     8.7192E+13     1.7439E+15
+    51     1.1052E+07  1.0513E+07     5.0000E-02     8.0138E+13     1.6027E+15
+    52     1.0513E+07  1.0000E+07     4.9999E-02     7.3645E+13     1.4729E+15
+    53     1.0000E+07  9.5123E+06     5.0000E-02     6.7691E+13     1.3538E+15
+    54     9.5123E+06  9.0484E+06     5.0000E-02     6.2229E+13     1.2446E+15
+    55     9.0484E+06  8.6071E+06     5.0000E-02     5.7234E+13     1.1447E+15
+    56     8.6071E+06  8.1873E+06     5.0000E-02     5.2603E+13     1.0521E+15
+    57     8.1873E+06  7.7880E+06     5.0000E-02     4.8470E+13     9.6939E+14
+    58     7.7880E+06  7.4082E+06     5.0001E-02     4.4511E+13     8.9021E+14
+    59     7.4082E+06  7.0469E+06     5.0000E-02     4.0991E+13     8.1982E+14
+    60     7.0469E+06  6.7032E+06     5.0000E-02     3.7776E+13     7.5551E+14
+    61     6.7032E+06  6.5924E+06     1.6666E-02     1.1912E+13     7.1477E+14
+    62     6.5924E+06  6.3763E+06     3.3334E-02     2.2877E+13     6.8628E+14
+    63     6.3763E+06  6.0653E+06     4.9999E-02     3.2025E+13     6.4051E+14
+    64     6.0653E+06  5.7695E+06     5.0000E-02     2.9511E+13     5.9022E+14
+    65     5.7695E+06  5.4881E+06     5.0000E-02     2.7186E+13     5.4372E+14
+    66     5.4881E+06  5.2205E+06     5.0000E-02     2.5050E+13     5.0100E+14
+    67     5.2205E+06  4.9658E+06     5.0001E-02     2.3096E+13     4.6192E+14
+    68     4.9658E+06  4.7237E+06     4.9998E-02     2.1286E+13     4.2573E+14
+    69     4.7237E+06  4.4933E+06     5.0001E-02     1.9637E+13     3.9274E+14
+    70     4.4933E+06  4.0657E+06     9.9999E-02     3.4809E+13     3.4809E+14
+    71     4.0657E+06  3.6788E+06     1.0000E-01     2.9684E+13     2.9683E+14
+    72     3.6788E+06  3.3287E+06     9.9999E-02     2.5320E+13     2.5320E+14
+    73     3.3287E+06  3.1664E+06     4.9999E-02     1.1229E+13     2.2459E+14
+    74     3.1664E+06  3.0119E+06     5.0001E-02     1.0370E+13     2.0740E+14
+    75     3.0119E+06  2.8650E+06     4.9999E-02     9.5840E+12     1.9169E+14
+    76     2.8650E+06  2.7253E+06     5.0000E-02     8.8599E+12     1.7720E+14
+    77     2.7253E+06  2.5924E+06     5.0002E-02     8.1888E+12     1.6377E+14
+    78     2.5924E+06  2.4660E+06     4.9999E-02     7.5760E+12     1.5152E+14
+    79     2.4660E+06  2.3851E+06     3.3332E-02     4.7233E+12     1.4171E+14
+    80     2.3851E+06  2.3653E+06     8.3361E-03     1.1422E+12     1.3702E+14
+    81     2.3653E+06  2.3457E+06     8.3337E-03     1.1268E+12     1.3521E+14
+    82     2.3457E+06  2.3069E+06     1.6666E-02     2.2094E+12     1.3257E+14
+    83     2.3069E+06  2.2313E+06     3.3333E-02     4.2496E+12     1.2749E+14
+    84     2.2313E+06  2.1225E+06     4.9999E-02     5.9718E+12     1.1944E+14
+    85     2.1225E+06  2.0190E+06     4.9998E-02     5.5297E+12     1.1060E+14
+    86     2.0190E+06  1.9205E+06     5.0002E-02     5.1254E+12     1.0250E+14
+    87     1.9205E+06  1.8268E+06     4.9998E-02     4.7476E+12     9.4956E+13
+    88     1.8268E+06  1.7377E+06     5.0002E-02     4.4047E+12     8.8090E+13
+    89     1.7377E+06  1.6530E+06     5.0000E-02     4.0852E+12     8.1704E+13
+    90     1.6530E+06  1.5724E+06     5.0002E-02     3.7893E+12     7.5783E+13
+    91     1.5724E+06  1.4957E+06     4.9996E-02     3.5173E+12     7.0351E+13
+    92     1.4957E+06  1.4227E+06     5.0003E-02     3.2668E+12     6.5333E+13
+    93     1.4227E+06  1.3534E+06     5.0002E-02     3.0351E+12     6.0699E+13
+    94     1.3534E+06  1.2874E+06     4.9997E-02     2.8199E+12     5.6401E+13
+    95     1.2874E+06  1.2246E+06     5.0004E-02     2.6218E+12     5.2432E+13
+    96     1.2246E+06  1.1648E+06     4.9998E-02     2.4393E+12     4.8788E+13
+    97     1.1648E+06  1.1080E+06     5.0000E-02     2.2702E+12     4.5405E+13
+    98     1.1080E+06  1.0026E+06     9.9997E-02     4.0847E+12     4.0848E+13
+    99     1.0026E+06  9.6167E+05     4.1668E-02     0.0000E+00     0.0000E+00
+   100     9.6167E+05  9.0718E+05     5.8333E-02     0.0000E+00     0.0000E+00
+   101     9.0718E+05  8.6294E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   102     8.6294E+05  8.2085E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   103     8.2085E+05  7.8082E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   104     7.8082E+05  7.4274E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   105     7.4274E+05  7.0651E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   106     7.0651E+05  6.7206E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   107     6.7206E+05  6.3928E+05     4.9999E-02     0.0000E+00     0.0000E+00
+   108     6.3928E+05  6.0810E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   109     6.0810E+05  5.7844E+05     5.0001E-02     0.0000E+00     0.0000E+00
+   110     5.7844E+05  5.5023E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   111     5.5023E+05  5.2340E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   112     5.2340E+05  4.9787E+05     4.9999E-02     0.0000E+00     0.0000E+00
+   113     4.9787E+05  4.5049E+05     1.0000E-01     0.0000E+00     0.0000E+00
+   114     4.5049E+05  4.0762E+05     1.0000E-01     0.0000E+00     0.0000E+00
+   115     4.0762E+05  3.8774E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   116     3.8774E+05  3.6883E+05     4.9999E-02     0.0000E+00     0.0000E+00
+   117     3.6883E+05  3.3373E+05     1.0000E-01     0.0000E+00     0.0000E+00
+   118     3.3373E+05  3.0197E+05     1.0000E-01     0.0000E+00     0.0000E+00
+   119     3.0197E+05  2.9849E+05     1.1601E-02     0.0000E+00     0.0000E+00
+   120     2.9849E+05  2.9721E+05     4.2975E-03     0.0000E+00     0.0000E+00
+   121     2.9721E+05  2.9452E+05     9.1022E-03     0.0000E+00     0.0000E+00
+   122     2.9452E+05  2.8725E+05     2.5001E-02     0.0000E+00     0.0000E+00
+   123     2.8725E+05  2.7324E+05     4.9999E-02     0.0000E+00     0.0000E+00
+   124     2.7324E+05  2.4724E+05     1.0000E-01     0.0000E+00     0.0000E+00
+   125     2.4724E+05  2.3518E+05     5.0001E-02     0.0000E+00     0.0000E+00
+   126     2.3518E+05  2.2371E+05     4.9997E-02     0.0000E+00     0.0000E+00
+   127     2.2371E+05  2.1280E+05     5.0003E-02     0.0000E+00     0.0000E+00
+   128     2.1280E+05  2.0242E+05     4.9999E-02     0.0000E+00     0.0000E+00
+   129     2.0242E+05  1.9255E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   130     1.9255E+05  1.8316E+05     5.0002E-02     0.0000E+00     0.0000E+00
+   131     1.8316E+05  1.7422E+05     4.9996E-02     0.0000E+00     0.0000E+00
+   132     1.7422E+05  1.6573E+05     5.0000E-02     0.0000E+00     0.0000E+00
+   133     1.6573E+05  1.5764E+05     5.0003E-02     0.0000E+00     0.0000E+00
+   134     1.5764E+05  1.4996E+05     4.9997E-02     0.0000E+00     0.0000E+00
+   135     1.4996E+05  1.4264E+05     5.0004E-02     0.0000E+00     0.0000E+00
+   136     1.4264E+05  1.3569E+05     4.9995E-02     0.0000E+00     0.0000E+00
+   137     1.3569E+05  1.2907E+05     5.0004E-02     0.0000E+00     0.0000E+00
+   138     1.2907E+05  1.2277E+05     5.0002E-02     0.0000E+00     0.0000E+00
+   139     1.2277E+05  1.1679E+05     4.9994E-02     0.0000E+00     0.0000E+00
+   140     1.1679E+05  1.1109E+05     5.0003E-02     0.0000E+00     0.0000E+00
+   141     1.1109E+05  9.8036E+04     1.2500E-01     0.0000E+00     0.0000E+00
+   142     9.8036E+04  8.6517E+04     1.2500E-01     0.0000E+00     0.0000E+00
+   143     8.6517E+04  8.2503E+04     4.7501E-02     0.0000E+00     0.0000E+00
+   144     8.2503E+04  7.9499E+04     3.7099E-02     0.0000E+00     0.0000E+00
+   145     7.9499E+04  7.2024E+04     9.8734E-02     0.0000E+00     0.0000E+00
+   146     7.2024E+04  6.7380E+04     6.6666E-02     0.0000E+00     0.0000E+00
+   147     6.7380E+04  5.6562E+04     1.7500E-01     0.0000E+00     0.0000E+00
+   148     5.6562E+04  5.2475E+04     7.5000E-02     0.0000E+00     0.0000E+00
+   149     5.2475E+04  4.6309E+04     1.2500E-01     0.0000E+00     0.0000E+00
+   150     4.6309E+04  4.0868E+04     1.2500E-01     0.0000E+00     0.0000E+00
+   151     4.0868E+04  3.4307E+04     1.7500E-01     0.0000E+00     0.0000E+00
+   152     3.4307E+04  3.1828E+04     7.5001E-02     0.0000E+00     0.0000E+00
+   153     3.1828E+04  2.8501E+04     1.1040E-01     0.0000E+00     0.0000E+00
+   154     2.8501E+04  2.7000E+04     5.4102E-02     0.0000E+00     0.0000E+00
+   155     2.7000E+04  2.6058E+04     3.5500E-02     0.0000E+00     0.0000E+00
+   156     2.6058E+04  2.4788E+04     5.0001E-02     0.0000E+00     0.0000E+00
+   157     2.4788E+04  2.4176E+04     2.5000E-02     0.0000E+00     0.0000E+00
+   158     2.4176E+04  2.3579E+04     2.5000E-02     0.0000E+00     0.0000E+00
+   159     2.3579E+04  2.1875E+04     7.5000E-02     0.0000E+00     0.0000E+00
+   160     2.1875E+04  1.9304E+04     1.2500E-01     0.0000E+00     0.0000E+00
+   161     1.9304E+04  1.5034E+04     2.5000E-01     0.0000E+00     0.0000E+00
+   162     1.5034E+04  1.1709E+04     2.5000E-01     0.0000E+00     0.0000E+00
+   163     1.1709E+04  1.0595E+04     9.9996E-02     0.0000E+00     0.0000E+00
+   164     1.0595E+04  9.1188E+03     1.5000E-01     0.0000E+00     0.0000E+00
+   165     9.1188E+03  7.1017E+03     2.5000E-01     0.0000E+00     0.0000E+00
+   166     7.1017E+03  5.5308E+03     2.5000E-01     0.0000E+00     0.0000E+00
+   167     5.5308E+03  4.3074E+03     2.5000E-01     0.0000E+00     0.0000E+00
+   168     4.3074E+03  3.7074E+03     1.5000E-01     0.0000E+00     0.0000E+00
+   169     3.7074E+03  3.3546E+03     1.0000E-01     0.0000E+00     0.0000E+00
+   170     3.3546E+03  3.0354E+03     1.0000E-01     0.0000E+00     0.0000E+00
+   171     3.0354E+03  2.7465E+03     9.9998E-02     0.0000E+00     0.0000E+00
+   172     2.7465E+03  2.6126E+03     5.0000E-02     0.0000E+00     0.0000E+00
+   173     2.6126E+03  2.4852E+03     5.0001E-02     0.0000E+00     0.0000E+00
+   174     2.4852E+03  2.2487E+03     1.0000E-01     0.0000E+00     0.0000E+00
+   175     2.2487E+03  2.0347E+03     1.0000E-01     0.0000E+00     0.0000E+00
+   176     2.0347E+03  1.5846E+03     2.5000E-01     0.0000E+00     0.0000E+00
+   177     1.5846E+03  1.2341E+03     2.5000E-01     0.0000E+00     0.0000E+00
+   178     1.2341E+03  9.6112E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   179     9.6112E+02  7.4852E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   180     7.4852E+02  5.8295E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   181     5.8295E+02  4.5400E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   182     4.5400E+02  3.5357E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   183     3.5357E+02  2.7536E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   184     2.7536E+02  2.1445E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   185     2.1445E+02  1.6702E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   186     1.6702E+02  1.3007E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   187     1.3007E+02  1.0130E+02     2.5000E-01     0.0000E+00     0.0000E+00
+   188     1.0130E+02  7.8893E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   189     7.8893E+01  6.1442E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   190     6.1442E+01  4.7851E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   191     4.7851E+01  3.7267E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   192     3.7267E+01  2.9023E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   193     2.9023E+01  2.2603E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   194     2.2603E+01  1.7604E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   195     1.7604E+01  1.3710E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   196     1.3710E+01  1.0677E+01     2.5000E-01     0.0000E+00     0.0000E+00
+   197     1.0677E+01  8.3153E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   198     8.3153E+00  6.4760E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   199     6.4760E+00  5.0435E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   200     5.0435E+00  3.9279E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   201     3.9279E+00  3.0590E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   202     3.0590E+00  2.3824E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   203     2.3824E+00  1.8554E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   204     1.8554E+00  1.4450E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   205     1.4450E+00  1.1254E+00     2.5000E-01     0.0000E+00     0.0000E+00
+   206     1.1254E+00  8.7643E-01     2.5000E-01     0.0000E+00     0.0000E+00
+   207     8.7643E-01  6.8256E-01     2.5000E-01     0.0000E+00     0.0000E+00
+   208     6.8256E-01  5.3158E-01     2.5000E-01     0.0000E+00     0.0000E+00
+   209     5.3158E-01  4.1399E-01     2.5000E-01     0.0000E+00     0.0000E+00
+   210     4.1399E-01  1.0000E-01     1.4207E+00     0.0000E+00     0.0000E+00
+   211     1.0000E-01  1.0000E-05     9.2104E+00     0.0000E+00     0.0000E+00
+  TOTAL                                              8.9098E+15
+1  OUTPUT GROUP STRUCTURE AND DATA
+
+  GROUP      UPPER       LOWER         LETHARGY         DATA        DATA/LETHARGY
+
+     1     1.0000E+09  9.6000E+08     4.0822E-02     0.0000E+00     0.0000E+00
+     2     9.6000E+08  9.2000E+08     4.2560E-02     0.0000E+00     0.0000E+00
+     3     9.2000E+08  8.8000E+08     4.4452E-02     0.0000E+00     0.0000E+00
+     4     8.8000E+08  8.4000E+08     4.6520E-02     0.0000E+00     0.0000E+00
+     5     8.4000E+08  8.0000E+08     4.8790E-02     0.0000E+00     0.0000E+00
+     6     8.0000E+08  7.6000E+08     5.1293E-02     0.0000E+00     0.0000E+00
+     7     7.6000E+08  7.2000E+08     5.4067E-02     0.0000E+00     0.0000E+00
+     8     7.2000E+08  6.8000E+08     5.7158E-02     0.0000E+00     0.0000E+00
+     9     6.8000E+08  6.4000E+08     6.0625E-02     0.0000E+00     0.0000E+00
+    10     6.4000E+08  6.0000E+08     6.4539E-02     0.0000E+00     0.0000E+00
+    11     6.0000E+08  5.6000E+08     6.8993E-02     0.0000E+00     0.0000E+00
+    12     5.6000E+08  5.2000E+08     7.4108E-02     0.0000E+00     0.0000E+00
+    13     5.2000E+08  4.8000E+08     8.0043E-02     0.0000E+00     0.0000E+00
+    14     4.8000E+08  4.4000E+08     8.7011E-02     0.0000E+00     0.0000E+00
+    15     4.4000E+08  4.0000E+08     9.5310E-02     0.0000E+00     0.0000E+00
+    16     4.0000E+08  3.6000E+08     1.0536E-01     0.0000E+00     0.0000E+00
+    17     3.6000E+08  3.2000E+08     1.1778E-01     0.0000E+00     0.0000E+00
+    18     3.2000E+08  2.8000E+08     1.3353E-01     0.0000E+00     0.0000E+00
+    19     2.8000E+08  2.4000E+08     1.5415E-01     0.0000E+00     0.0000E+00
+    20     2.4000E+08  2.0000E+08     1.8232E-01     0.0000E+00     0.0000E+00
+    21     2.0000E+08  1.8000E+08     1.0536E-01     0.0000E+00     0.0000E+00
+    22     1.8000E+08  1.6000E+08     1.1778E-01     0.0000E+00     0.0000E+00
+    23     1.6000E+08  1.4000E+08     1.3353E-01     0.0000E+00     0.0000E+00
+    24     1.4000E+08  1.2000E+08     1.5415E-01     0.0000E+00     0.0000E+00
+    25     1.2000E+08  1.0000E+08     1.8232E-01     0.0000E+00     0.0000E+00
+    26     1.0000E+08  9.0000E+07     1.0536E-01     0.0000E+00     0.0000E+00
+    27     9.0000E+07  8.0000E+07     1.1778E-01     0.0000E+00     0.0000E+00
+    28     8.0000E+07  7.0000E+07     1.3353E-01     0.0000E+00     0.0000E+00
+    29     7.0000E+07  6.0000E+07     1.5415E-01     0.0000E+00     0.0000E+00
+    30     6.0000E+07  5.5000E+07     8.7011E-02     0.0000E+00     0.0000E+00
+    31     5.5000E+07  5.4000E+07     1.8349E-02     0.0000E+00     0.0000E+00
+    32     5.4000E+07  5.0000E+07     7.6961E-02     0.0000E+00     0.0000E+00
+    33     5.0000E+07  4.5000E+07     1.0536E-01     0.0000E+00     0.0000E+00
+    34     4.5000E+07  4.0000E+07     1.1778E-01     0.0000E+00     0.0000E+00
+    35     4.0000E+07  3.5000E+07     1.3353E-01     1.8376E+15     1.3762E+16
+    36     3.5000E+07  3.0000E+07     1.5415E-01     1.6500E+15     1.0704E+16
+    37     3.0000E+07  2.8000E+07     6.8993E-02     6.0619E+14     8.7863E+15
+    38     2.8000E+07  2.6000E+07     7.4108E-02     5.7500E+14     7.7590E+15
+    39     2.6000E+07  2.4000E+07     8.0043E-02     5.4291E+14     6.7827E+15
+    40     2.4000E+07  2.2000E+07     8.7011E-02     5.1067E+14     5.8690E+15
+    41     2.2000E+07  2.0000E+07     9.5310E-02     4.7736E+14     5.0084E+15
+    42     2.0000E+07  1.9000E+07     5.1293E-02     2.1559E+14     4.2031E+15
+    43     1.9000E+07  1.8000E+07     5.4067E-02     2.1726E+14     4.0183E+15
+    44     1.8000E+07  1.7000E+07     5.7158E-02     2.2018E+14     3.8521E+15
+    45     1.7000E+07  1.6000E+07     6.0625E-02     1.9941E+14     3.2893E+15
+    46     1.6000E+07  1.5000E+07     6.4539E-02     1.9293E+14     2.9894E+15
+    47     1.5000E+07  1.4000E+07     6.8993E-02     1.8326E+14     2.6562E+15
+    48     1.4000E+07  1.3000E+07     7.4108E-02     1.7343E+14     2.3402E+15
+    49     1.3000E+07  1.2000E+07     8.0043E-02     1.6475E+14     2.0582E+15
+    50     1.2000E+07  1.1000E+07     8.7011E-02     1.5610E+14     1.7940E+15
+    51     1.1000E+07  1.0000E+07     9.5310E-02     1.4627E+14     1.5346E+15
+    52     1.0000E+07  9.8000E+06     2.0203E-02     2.7351E+13     1.3538E+15
+    53     9.8000E+06  9.6000E+06     2.0619E-02     2.7914E+13     1.3538E+15
+    54     9.6000E+06  9.4000E+06     2.1053E-02     2.7205E+13     1.2922E+15
+    55     9.4000E+06  9.2000E+06     2.1506E-02     2.6766E+13     1.2446E+15
+    56     9.2000E+06  9.0000E+06     2.1979E-02     2.6819E+13     1.2202E+15
+    57     9.0000E+06  8.8000E+06     2.2473E-02     2.5725E+13     1.1447E+15
+    58     8.8000E+06  8.6000E+06     2.2990E-02     2.6240E+13     1.1414E+15
+    59     8.6000E+06  8.4000E+06     2.3530E-02     2.4756E+13     1.0521E+15
+    60     8.4000E+06  8.2000E+06     2.4098E-02     2.5352E+13     1.0521E+15
+    61     8.2000E+06  8.0000E+06     2.4693E-02     2.4065E+13     9.7458E+14
+    62     8.0000E+06  7.8000E+06     2.5318E-02     2.4543E+13     9.6939E+14
+    63     7.8000E+06  7.6000E+06     2.5975E-02     2.3246E+13     8.9490E+14
+    64     7.6000E+06  7.4000E+06     2.6668E-02     2.3663E+13     8.8730E+14
+    65     7.4000E+06  7.2000E+06     2.7399E-02     2.2462E+13     8.1982E+14
+    66     7.2000E+06  7.0000E+06     2.8171E-02     2.2666E+13     8.0458E+14
+    67     7.0000E+06  6.8000E+06     2.8988E-02     2.1900E+13     7.5551E+14
+    68     6.8000E+06  6.6000E+06     2.9853E-02     2.1922E+13     7.3434E+14
+    69     6.6000E+06  6.4000E+06     3.0772E-02     2.1151E+13     6.8735E+14
+    70     6.4000E+06  6.2000E+06     3.1749E-02     2.0505E+13     6.4586E+14
+    71     6.2000E+06  6.0000E+06     3.2790E-02     2.0458E+13     6.2390E+14
+    72     6.0000E+06  5.8000E+06     3.3902E-02     2.0009E+13     5.9022E+14
+    73     5.8000E+06  5.6000E+06     3.5091E-02     1.9325E+13     5.5071E+14
+    74     5.6000E+06  5.4000E+06     3.6368E-02     1.9082E+13     5.2471E+14
+    75     5.4000E+06  5.2000E+06     3.7740E-02     1.8754E+13     4.9693E+14
+    76     5.2000E+06  5.0000E+06     3.9221E-02     1.8117E+13     4.6192E+14
+    77     5.0000E+06  4.8000E+06     4.0822E-02     1.7627E+13     4.3180E+14
+    78     4.8000E+06  4.6000E+06     4.2560E-02     1.7244E+13     4.0516E+14
+    79     4.6000E+06  4.4000E+06     4.4452E-02     1.6521E+13     3.7166E+14
+    80     4.4000E+06  4.2000E+06     4.6520E-02     1.6193E+13     3.4809E+14
+    81     4.2000E+06  4.0000E+06     4.8790E-02     1.6148E+13     3.3098E+14
+    82     4.0000E+06  3.8750E+06     3.1749E-02     9.4240E+12     2.9683E+14
+    83     3.8750E+06  3.7500E+06     3.2790E-02     9.7330E+12     2.9683E+14
+    84     3.7500E+06  3.6250E+06     3.3902E-02     9.4203E+12     2.7787E+14
+    85     3.6250E+06  3.5000E+06     3.5091E-02     8.8850E+12     2.5320E+14
+    86     3.5000E+06  3.3750E+06     3.6368E-02     9.2082E+12     2.5320E+14
+    87     3.3750E+06  3.2500E+06     3.7740E-02     8.8712E+12     2.3506E+14
+    88     3.2500E+06  3.1250E+06     3.9221E-02     8.5826E+12     2.1883E+14
+    89     3.1250E+06  3.0000E+06     4.0822E-02     8.4042E+12     2.0587E+14
+    90     3.0000E+06  2.8750E+06     4.2560E-02     8.1581E+12     1.9169E+14
+    91     2.8750E+06  2.7500E+06     4.4452E-02     7.9270E+12     1.7833E+14
+    92     2.7500E+06  2.6250E+06     4.6520E-02     7.7397E+12     1.6637E+14
+    93     2.6250E+06  2.5000E+06     4.8790E-02     7.5459E+12     1.5466E+14
+    94     2.5000E+06  2.3750E+06     5.1293E-02     7.3832E+12     1.4394E+14
+    95     2.3750E+06  2.2500E+06     5.4067E-02     7.0809E+12     1.3096E+14
+    96     2.2500E+06  2.1250E+06     5.7158E-02     6.8941E+12     1.2061E+14
+    97     2.1250E+06  2.0000E+06     6.0625E-02     6.6391E+12     1.0951E+14
+    98     2.0000E+06  1.8750E+06     6.4539E-02     6.4344E+12     9.9699E+13
+    99     1.8750E+06  1.7500E+06     6.8993E-02     6.2562E+12     9.0680E+13
+   100     1.7500E+06  1.6250E+06     7.4108E-02     5.9987E+12     8.0945E+13
+   101     1.6250E+06  1.5000E+06     8.0043E-02     5.8099E+12     7.2585E+13
+   102     1.5000E+06  1.3750E+06     8.7011E-02     5.5410E+12     6.3681E+13
+   103     1.3750E+06  1.2500E+06     9.5310E-02     5.3270E+12     5.5891E+13
+   104     1.2500E+06  1.1250E+06     1.0536E-01     5.0975E+12     4.8382E+13
+   105     1.1250E+06  1.0000E+06     1.1778E-01     4.7748E+12     4.0539E+13
+   106     1.0000E+06  9.7500E+05     2.5318E-02     0.0000E+00     0.0000E+00
+   107     9.7500E+05  9.5000E+05     2.5975E-02     0.0000E+00     0.0000E+00
+   108     9.5000E+05  9.2500E+05     2.6668E-02     0.0000E+00     0.0000E+00
+   109     9.2500E+05  9.0000E+05     2.7399E-02     0.0000E+00     0.0000E+00
+   110     9.0000E+05  8.7500E+05     2.8171E-02     0.0000E+00     0.0000E+00
+   111     8.7500E+05  8.5000E+05     2.8988E-02     0.0000E+00     0.0000E+00
+   112     8.5000E+05  8.2500E+05     2.9853E-02     0.0000E+00     0.0000E+00
+   113     8.2500E+05  8.0000E+05     3.0772E-02     0.0000E+00     0.0000E+00
+   114     8.0000E+05  7.7500E+05     3.1749E-02     0.0000E+00     0.0000E+00
+   115     7.7500E+05  7.5000E+05     3.2790E-02     0.0000E+00     0.0000E+00
+   116     7.5000E+05  7.2500E+05     3.3902E-02     0.0000E+00     0.0000E+00
+   117     7.2500E+05  7.0000E+05     3.5091E-02     0.0000E+00     0.0000E+00
+   118     7.0000E+05  6.7500E+05     3.6368E-02     0.0000E+00     0.0000E+00
+   119     6.7500E+05  6.5000E+05     3.7740E-02     0.0000E+00     0.0000E+00
+   120     6.5000E+05  6.2500E+05     3.9221E-02     0.0000E+00     0.0000E+00
+   121     6.2500E+05  6.0000E+05     4.0822E-02     0.0000E+00     0.0000E+00
+   122     6.0000E+05  5.7500E+05     4.2560E-02     0.0000E+00     0.0000E+00
+   123     5.7500E+05  5.5000E+05     4.4452E-02     0.0000E+00     0.0000E+00
+   124     5.5000E+05  5.2500E+05     4.6520E-02     0.0000E+00     0.0000E+00
+   125     5.2500E+05  5.0000E+05     4.8790E-02     0.0000E+00     0.0000E+00
+   126     5.0000E+05  4.7500E+05     5.1293E-02     0.0000E+00     0.0000E+00
+   127     4.7500E+05  4.5000E+05     5.4067E-02     0.0000E+00     0.0000E+00
+   128     4.5000E+05  4.2500E+05     5.7158E-02     0.0000E+00     0.0000E+00
+   129     4.2500E+05  4.0000E+05     6.0625E-02     0.0000E+00     0.0000E+00
+   130     4.0000E+05  3.7500E+05     6.4539E-02     0.0000E+00     0.0000E+00
+   131     3.7500E+05  3.5000E+05     6.8993E-02     0.0000E+00     0.0000E+00
+   132     3.5000E+05  3.2500E+05     7.4108E-02     0.0000E+00     0.0000E+00
+   133     3.2500E+05  3.0000E+05     8.0043E-02     0.0000E+00     0.0000E+00
+   134     3.0000E+05  2.8000E+05     6.8993E-02     0.0000E+00     0.0000E+00
+   135     2.8000E+05  2.6000E+05     7.4108E-02     0.0000E+00     0.0000E+00
+   136     2.6000E+05  2.4000E+05     8.0043E-02     0.0000E+00     0.0000E+00
+   137     2.4000E+05  2.2000E+05     8.7011E-02     0.0000E+00     0.0000E+00
+   138     2.2000E+05  2.0000E+05     9.5310E-02     0.0000E+00     0.0000E+00
+   139     2.0000E+05  1.8000E+05     1.0536E-01     0.0000E+00     0.0000E+00
+   140     1.8000E+05  1.6000E+05     1.1778E-01     0.0000E+00     0.0000E+00
+   141     1.6000E+05  1.4000E+05     1.3353E-01     0.0000E+00     0.0000E+00
+   142     1.4000E+05  1.2000E+05     1.5415E-01     0.0000E+00     0.0000E+00
+   143     1.2000E+05  1.0000E+05     1.8232E-01     0.0000E+00     0.0000E+00
+   144     1.0000E+05  9.5000E+04     5.1293E-02     0.0000E+00     0.0000E+00
+   145     9.5000E+04  9.0000E+04     5.4067E-02     0.0000E+00     0.0000E+00
+   146     9.0000E+04  8.5000E+04     5.7158E-02     0.0000E+00     0.0000E+00
+   147     8.5000E+04  8.0000E+04     6.0625E-02     0.0000E+00     0.0000E+00
+   148     8.0000E+04  7.5000E+04     6.4539E-02     0.0000E+00     0.0000E+00
+   149     7.5000E+04  7.0000E+04     6.8993E-02     0.0000E+00     0.0000E+00
+   150     7.0000E+04  6.5000E+04     7.4108E-02     0.0000E+00     0.0000E+00
+   151     6.5000E+04  6.0000E+04     8.0043E-02     0.0000E+00     0.0000E+00
+   152     6.0000E+04  5.5000E+04     8.7011E-02     0.0000E+00     0.0000E+00
+   153     5.5000E+04  5.0000E+04     9.5310E-02     0.0000E+00     0.0000E+00
+   154     5.0000E+04  4.5000E+04     1.0536E-01     0.0000E+00     0.0000E+00
+   155     4.5000E+04  4.0000E+04     1.1778E-01     0.0000E+00     0.0000E+00
+   156     4.0000E+04  3.5000E+04     1.3353E-01     0.0000E+00     0.0000E+00
+   157     3.5000E+04  3.0000E+04     1.5415E-01     0.0000E+00     0.0000E+00
+   158     3.0000E+04  2.5000E+04     1.8232E-01     0.0000E+00     0.0000E+00
+   159     2.5000E+04  2.0000E+04     2.2314E-01     0.0000E+00     0.0000E+00
+   160     2.0000E+04  1.5000E+04     2.8768E-01     0.0000E+00     0.0000E+00
+   161     1.5000E+04  1.0000E+04     4.0547E-01     0.0000E+00     0.0000E+00
+   162     1.0000E+04  5.0000E+03     6.9315E-01     0.0000E+00     0.0000E+00
+  TOTAL                                              8.9098E+15
+fispact run time=                  0.12801E-01 secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ arb_flux( 3)    arb_flux
+ input( 5)       convert.i
+ ind_nuc(18)     /Volumes/Pegasus2/Code/FISPACT-II/FISPACT-II/nuclear_data//TENDL2017data/tendl17_decay12_index
+ fluxes(20)      fluxes
+ output(38)      convert.out
+ runlog(48)      convert.log
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:12:40:08 29 January 2018        
+
+     Current time: 12:40:08 29 January 2018        

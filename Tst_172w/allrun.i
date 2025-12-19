@@ -1,0 +1,11 @@
+<< combined collapse, condense and summary print >>
+LIBVERSION 0
+SPEK
+GETXS 1 172
+GETDECAY 1
+FISPACT
+* DEC_99.00X/172FLT_99/PALUEL.GP
+PRINTLIB  2
+END
+* END OF PRINTLIB
+/*

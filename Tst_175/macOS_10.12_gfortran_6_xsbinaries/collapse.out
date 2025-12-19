@@ -1,0 +1,79 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 11:53:00 19 January 2018                                                 |
+     | EAF source library label:    EAF-2010 175Gp THE EUROPEAN ACTI                                         |
+     | FLUX file label:             EEF FW NORM. 1MW/M2 VIT-J TOT=4.                                         |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp:                                                                          |
+     | EAF source library label:                                                                             |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   11:53:00 19 January 2018                                                 |
+     | fileroot :                   collapse                                                                 |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * COLLAPSE 175FUS_99 WITH FW EEF 175 VitJ                                |
+     |                                                                                                       |
+     | See the collapse.log file                                                                             |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+fispact run time=                   1.4649     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ input( 5)       collapse.i
+ crossunc( 7)    /Volumes/Pegasus/Code/FISPACT-II_dev/nuclear_data/EAF2010data/eaf_un_20100
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     /Volumes/Pegasus/Code/FISPACT-II_dev/nuclear_data/EAF2010data/eaf_index_20100
+ crossec(19)     /Volumes/Pegasus/Code/FISPACT-II_dev/nuclear_data/EAF2010data/eaf_n_gxs_175_fus_20100
+ fluxes(20)      fluxes
+ output(38)      collapse.out
+ runlog(48)      collapse.log
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:11:53:00 19 January 2018        
+
+     Current time: 11:53:01 19 January 2018        

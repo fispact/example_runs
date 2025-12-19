@@ -1,0 +1,9 @@
+<< convert 211 group arb_flux file to 351 group >>
+CLOBBER
+LIBVERSION 0
+GRPC 211 351
+FISPACT
+* SPECTRAL MODIFICATION  211 Vit-J to TRIPOLI
+END
+* END
+

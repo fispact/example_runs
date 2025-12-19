@@ -1,0 +1,5 @@
+ind_nuc ../../nuclear_data/decay/decay_2012_index_2012
+dk_endf ../../nuclear_data/decay/decay_2012
+fy_endf ../../nuclear_data/UKFY42data/ukfy4_2n
+sf_endf ../../nuclear_data/GEFY61data/gefy61_sfy
+arrayx ARRAYX

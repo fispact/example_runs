@@ -1,0 +1,11 @@
+<< -----collapse cross section data----- >>
+MONITOR 1
+LIBV 0
+GETXS 1 616
+PROBTAB 1 1
+FISPACT
+* COLLAPSE EAF_616_FLT
+PRINTLIB 4
+END
+* END OF RUN
+

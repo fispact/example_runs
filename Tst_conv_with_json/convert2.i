@@ -1,0 +1,10 @@
+<< convert fluxes to 172 groups>>
+JSON
+LIBVERSION 0
+CNVT 0
+GRPC 66 172
+FISPACT
+* Lethargy SPECTRAL MODIFICATION  66 WIMS -172 XMAS
+END
+* END
+

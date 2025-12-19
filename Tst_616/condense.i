@@ -1,0 +1,10 @@
+<< -----condense decay data----- >>
+MONITOR 1
+LIBV 0
+SPEK
+GETDECAY 1
+FISPACT
+* EAF_DEC_990/EAF_616_FLT
+END
+* END OF RUN
+

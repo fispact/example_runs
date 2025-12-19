@@ -1,0 +1,9 @@
+<< -----condense decay data----- >>
+SPEK
+READSF
+GETDECAY 1
+FISPACT
+* CONDENSE dec_2012, TENDL2015-n/TENDL-nFY
+END
+* END OF RUN
+

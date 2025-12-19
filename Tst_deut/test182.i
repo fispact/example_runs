@@ -1,0 +1,34 @@
+<< -----get nuclear data----- >>
+LIBVERSION 0
+MONITOR 1
+PROJ 2
+NOERROR
+GETXS 0
+GETDECAY 0
+FISPACT
+* IRRADIATION OF TI by d, IFMIF
+<< -----set initial conditions----- >>
+DENSITY 4.54
+FUEL 5
+Ti46 1.00619E24
+Ti47 9.18148E23
+Ti48 9.28210E24
+Ti49 6.91755E23
+Ti50 6.79178E23
+MIND 1.E5
+GRAPH 3 0 0 1 2 3
+FLUX 5.0E14
+ATOMS
+<< -----irradiation phase----- >>
+TIME 2.5 YEARS
+ATOMS
+<< -----cooling phase----- >>
+FLUX 0.
+ZERO
+TIME 1 MINS ATOMS
+TIME 1 HOURS ATOMS
+TIME 1 DAYS ATOMS
+TIME 7 DAYS ATOMS
+END
+* END
+

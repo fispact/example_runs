@@ -1,0 +1,30 @@
+<< -----get nuclear data----- >>
+LIBVERSION 0
+GETXS 0
+GETDECAY 0
+FISPACT
+* IRRADIATION OF TI EEF FW 1.0 MW/M2
+
+<< -----set initial conditions----- >>
+DENSITY 4.54
+FUEL 5
+Ti46 1.00619E24
+Ti47 9.18148E23
+Ti48 9.28210E24
+Ti49 6.91755E23
+Ti50 6.79178E23
+MIND 1.E5
+FLUX 4.27701E14
+PATH 3 Ti46 R Ti45 D Sc45 R Sc44M
+PATH 1 Ti46 R Sc46
+PATH 5 Ti50 R Ti51 D V51 R V52 D Cr52 R Cr51
+ATOMS
+
+<< -----irradiation with PATH calculation----- >>
+TIME 2.5 YEARS
+ATOMS
+FLUX 0.0
+ZERO
+END
+* END
+/*

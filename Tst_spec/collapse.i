@@ -1,0 +1,9 @@
+<< spectral modification  99 APOLLO - 172 XMAS >>
+LIBV 0
+GRPCONVERT 99 172
+<< collapse cross sections >>
+GETXS 1 172
+FISPACT
+* COLLAPSE 172FIS_99 WITH PWR PALUEL
+END
+* END OF RUN

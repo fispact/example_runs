@@ -1,0 +1,10 @@
+<< -----condense decay data----- >>
+SPEK
+LIBVERSION 0
+GETDECAY 1
+<< NOFISS >>
+FISPACT
+* EAF_DEC_99.00X/EAF_211/IFMIF VitJ
+END
+* END OF RUN
+

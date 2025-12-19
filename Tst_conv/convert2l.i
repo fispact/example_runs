@@ -1,0 +1,8 @@
+<< convert fluxes to 172 groups>>
+CNVT 1
+GRPC 66 172
+FISPACT
+* linear SPECTRAL MODIFICATION  66 WIMS -172 XMAS
+END
+* END
+

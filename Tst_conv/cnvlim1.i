@@ -1,0 +1,8 @@
+<< convert fluxes to 66 groups>>
+LIMG 1.001e-3  5E6
+GRPC 172 66
+FISPACT
+* SPECTRAL MODIFICATION 172 XMAS - 66 WIMS
+END
+* END
+

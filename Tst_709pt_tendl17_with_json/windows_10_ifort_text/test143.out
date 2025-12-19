@@ -1,0 +1,160 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+  PROBABILITY TABLE INITIALISATION
+  ================================
+
+  Self shielding factors are computed using total cross-sections
+
+  EAF library infinite dilution cross-sections are scaled by probability table values
+
+  Probability table data directory: C:/Dev/FISPACT-II/nuclear_data//TENDL2015data/tal2015-n/tp-709-294/
+
+  Temperature =  294K
+
+  Probability Table Application List
+  ----------------------------------
+  Nuclide     Data File
+  Ti 46       Ti046-294.tpe
+  Ti 47       Ti047-294.tpe
+  Ti 48       Ti048-294.tpe
+  Ti 49       Ti049-294.tpe
+  Ti 50       Ti050-294.tpe
+  W 180       W180-294.tpe
+  W 182       W182-294.tpe
+  W 183       W183-294.tpe
+  W 184       W184-294.tpe
+  W 186       W186-294.tpe
+
+  Material Mixture List
+  ---------------------
+  Nuclide     Percentage
+  Ti 46        7.631
+  Ti 47        6.882
+  Ti 48       68.193
+  Ti 49        5.004
+  Ti 50        4.792
+  W 180        0.003
+  W 182        0.751
+  W 183        0.405
+  W 184        0.868
+  W 186        0.806
+  Fe 54        0.273
+  Fe 56        4.279
+  Fe 57        0.099
+  Fe 58        0.013
+1
+1
+
+
+  P R O B A B I L I T Y  T A B L E  C H A N G E S  T O  C R O S S - S E C T I O N S
+  =================================================================================
+
+
+  The EAF/TENDL infinitely dilute values (old sigma) are replaced by the probability table effective cross-section (new sigma).
+  The effective self-shielding factor is the ratio of new to old value
+
+
+  parent     daughter     mt cal-mt    old sigma     new sigma     self shielding
+  nuclide    nuclide                    barns          barns         factor (%)
+  Ti 46      Ti 46         2      2    1.16420E+00    1.15883E+00         99.54
+  Ti 46      Ti 47       102    101    1.91907E-03    1.89886E-03         98.95
+  Ti 47      Ti 47         2      2    1.27616E+00    1.26921E+00         99.46
+  Ti 47      Ti 47         4      4    5.19068E-01    5.19037E-01         99.99
+  Ti 47      Ti 48       102    101    2.12947E-03    2.08506E-03         97.91
+  Ti 48      Ti 48         2      2    1.26929E+00    1.25747E+00         99.07
+  Ti 48      Ti 49       102    101    1.99654E-03    1.97360E-03         98.85
+  Ti 49      Ti 49         2      2    1.22458E+00    1.22203E+00         99.79
+  Ti 49      Ti 50       102    101    1.05983E-03    1.05454E-03         99.50
+  Ti 50      Ti 50         2      2    1.15107E+00    1.14975E+00         99.89
+  Ti 50      Ti 50         4      4    5.51280E-01    5.51249E-01         99.99
+  Ti 50      Ti 51       102    101    6.63361E-04    6.62378E-04         99.85
+  W 180      W 180         2      2    3.06606E+00    3.06145E+00         99.85
+  W 180      W 181       102    101    9.55284E-02    9.18739E-02         96.17
+  W 182      W 182         2      2    3.23581E+00    3.19100E+00         98.62
+  W 182      W 183       102    101    6.68732E-02    3.21204E-02         48.03
+  W 182      W 183m      102    101    4.88539E-04    4.45312E-04         91.15
+  W 183      Hf180       107    101    7.10955E-04    7.10952E-04        100.00
+  W 183      W 183         2      2    2.88435E+00    2.85778E+00         99.08
+  W 183      W 184       102    101    5.68988E-02    3.65612E-02         64.26
+  W 184      W 184         2      2    3.09423E+00    3.06082E+00         98.92
+  W 184      W 185       102    101    9.99565E-03    8.02979E-03         80.33
+  W 184      W 185m      102    101    3.46107E-04    3.41424E-04         98.65
+  W 186      W 186         2      2    3.46535E+00    3.31420E+00         95.64
+  W 186      W 187       102    101    5.91903E-02    3.76604E-02         63.63
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 09:44:16 26 January 2018                                                 |
+     | EAF source library label:                                                                             |
+     | FLUX file label:             Position #3 Normalization Factor                                         |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp:                                                                          |
+     | EAF source library label:                                                                             |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   09:44:16 26 January 2018                                                 |
+     | fileroot :                   test143                                                                  |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * COLLAPSE tal-n/gxs-709 with tp-709-294                                 |
+     |                                                                                                       |
+     | See the test143.log file                                                                              |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+fispact run time=                   54.000     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ input( 5)       test143.i
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     C:/Dev/FISPACT-II/nuclear_data//TENDL2015data/tendl15_decay12_index
+ fluxes(20)      fluxes
+ output(38)      test143.out
+ runlog(48)      test143.log
+ prob_tab(51)    C:/Dev/FISPACT-II/nuclear_data//TENDL2015data/tal2015-n/tp-709-294
+ xs_endf(52)     C:/Dev/FISPACT-II/nuclear_data//TENDL2015data/tal2015-n/gxs-709
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:09:44:16 26 January 2018        
+
+     Current time: 09:45:11 26 January 2018        

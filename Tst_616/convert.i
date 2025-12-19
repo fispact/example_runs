@@ -1,0 +1,8 @@
+<< get collapsed cross sections>>
+LIBV 0
+GRPC 315 616
+FISPACT
+* SPECTRAL MODIFICATION 315 - 616
+END
+* END
+

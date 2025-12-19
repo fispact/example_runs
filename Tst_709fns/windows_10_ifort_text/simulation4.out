@@ -1,0 +1,320 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 5.0 May 2021                               |
+     |             Copyright (c) 2009-21, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 15:22:01 19 March 2021                                                   |
+     | EAF source library label:                                                                             |
+     | FLUX file label:             Position #3 Normalization Factor                                         |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp: 15:22:01 19 March 2021                                                   |
+     | EAF source library label:    Decay input from separate files                                          |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   15:22:01 19 March 2021                                                   |
+     | fileroot :                   simulation4                                                              |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * IRRADIATION OF TI EEF FW 1.0 MW/M2                                     |
+     |                                                                                                       |
+     | See the simulation4.log file                                                                          |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+
+
+
+
+                                   -------------------------------------------------------------------------------
+                                   | NB: IN FOLLOWING TABLES                                                     |
+                                   |                         ? MEANS CONVERGENCE NOT REACHED FOR NUCLIDE         |
+                                   |                         & MEANS GAMMA SPECTRUM IS APPROXIMATELY CALCULATED  |
+                                   |                         # MEANS NUCLIDE IS STABLE                           |
+                                   |                         > MEANS NUCLIDE WAS PRESENT BEFORE IRRADIATION      |
+                                   -------------------------------------------------------------------------------
+                                   |                                                                             |
+                                   |                                                                             |
+                                   V                                                                             V
+1 * * * TIME INTERVAL   1 * * * * * * * TIME IS   0.0000E+00 SECS * * * ELAPSED TIME IS   0.000ps   * * * FLUX AMP IS  4.2770E+14 /cm^2/s  * * * * * * * * * * * * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE                                                            
+                                                        kW          kW         kW         Sv/hr                                                              
+
+  Ti 46    #> 1.00619E+24   7.678E+01   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+  Ti 47    #> 9.18148E+23   7.158E+01   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+  Ti 48    #> 9.28210E+24   7.390E+02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+  Ti 49    #> 6.91755E+23   5.623E+01   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+  Ti 50    #> 6.79178E+23   5.633E+01   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =    5
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 0.000000E+00  GAMMA BECQUERELS = 0.000000E+00
+0  TOTAL ACTIVITY FOR ALL MATERIALS     0.00000E+00 Bq
+                                        0.00000E+00 Ci/cc           DENSITY   4.54E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     0.00000E+00 Bq
+                                        0.00000E+00 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL GAMMA HEAT PRODUCTION          0.00000E+00 kW              TOTAL HEAT PRODUCTION 0.00000E+00 kW
+0  INITIAL TOTAL MASS OF MATERIAL       9.99952E-01 kg              TOTAL HEAT EX TRITIUM 0.00000E+00 kW
+0  TOTAL MASS OF MATERIAL               9.99952E-01 kg
+   NEUTRON  FLUX DURING INTERVAL        4.27701E+14 n/cm^2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  Total Displacement Rate (n,Ddiss) =  1.06767E+18 Displacements/sec  =  8.48879E-08 Displacements Per Atom/sec  =  2.67886E+00 DPA/year
+   Total Displacement Rate (n,Dinel) =  3.67940E+18 Displacements/sec  =  2.92541E-07 Displacements Per Atom/sec  =  9.23190E+00 DPA/year
+   Total Displacement Rate (n,Del  ) =  3.31274E+18 Displacements/sec  =  2.63389E-07 Displacements Per Atom/sec  =  8.31193E+00 DPA/year
+   Total Displacement Rate (n,Dtot ) =  1.17187E+19 Displacements/sec  =  9.31728E-07 Displacements Per Atom/sec  =  2.94031E+01 DPA/year
+0  KERMA RATE (n,Kktot) =  3.58810E+22 eV/sec = 5.74905E+00 kW/kg = 2.61007E-02 kW/cm^3
+   KERMA RATE (n,Kphot) =  2.88003E+22 eV/sec = 4.61454E+00 kW/kg = 2.09500E-02 kW/cm^3
+   KERMA RATE (n,Kfiss) =  0.00000E+00 eV/sec = 0.00000E+00 kW/kg = 0.00000E+00 kW/cm^3
+   KERMA RATE (n,Kinel) =  2.69318E+22 eV/sec = 4.31516E+00 kW/kg = 1.95908E-02 kW/cm^3
+   KERMA RATE (n,Knone) =  3.77205E+22 eV/sec = 6.04377E+00 kW/kg = 2.74387E-02 kW/cm^3
+   KERMA RATE (n,Kel  ) =  7.86692E+20 eV/sec = 1.26048E-01 kW/kg = 5.72258E-04 kW/cm^3
+   KERMA RATE (n,Ktot ) =  3.85071E+22 eV/sec = 6.16982E+00 kW/kg = 2.80110E-02 kW/cm^3
+0  GAS   RATE (n,Xa   ) =  1.92336E+14 atoms per sec =  1.52922E-05 appm/sec
+   GAS   RATE (n,Xh   ) =  5.03159E+07 atoms per sec =  4.00051E-12 appm/sec
+   GAS   RATE (n,Xt   ) =  3.62136E+10 atoms per sec =  2.87927E-09 appm/sec
+   GAS   RATE (n,Xd   ) =  2.54459E+13 atoms per sec =  2.02315E-06 appm/sec
+   GAS   RATE (n,Xp   ) =  5.21437E+14 atoms per sec =  4.14584E-05 appm/sec
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+   22       Ti      1.2577E+25   2.0885E+01   9.9995E+02   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Entered density (g/cc)       4.54
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             0.00000E+00
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     0.00000E+00    Total gammas (per cc per second)      0.00000E+00
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   0.00000E+00    Gammas per group (per cc per second)  0.00000E+00
+                                                     (  0.010-  0.020 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.020-  0.050 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.050-  0.100 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.100-  0.200 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.200-  0.300 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.300-  0.400 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.400-  0.600 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.600-  0.800 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  0.800-  1.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.000-  1.220 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.220-  1.440 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.440-  1.660 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.660-  2.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.000-  2.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+GAMMA SPECTRUM END
+
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            0.00000E+00 Sieverts/hour   ( 0.00000E+00 Rems/hour)
+
+1
+                         R O U T E S    A N A L Y S I S   F O R   I R R A D I A T I O N   P H A S E
+                         ===========================================================================
+
+
+ no of steps        =      1
+ irradiation time   =  7.88940E+07 secs
+ flux               =  4.27701E+14 n/cm**2/s
+ path floor         =  5.00000E-04% of target inventory
+ loop floor         =  1.00000E+00% of path inventory
+ max depth          =   10    (maximum number of edges between source and target)
+
+ Source Nuclides
+  Ti 46    
+
+ Target Nuclides
+  Ca 45    
+
+ Target nuclide Ca 45      1.554% of inventory given by  7 paths
+ --------------------
+
+ path  1   0.582% Ti 46 ---(R)--- Sc 45 ---(R)--- Ca 45 ---(S)--- 
+                     97.19%(n,np)   100.00%(n,p)                   
+                      2.81%(n,d)                                   
+
+ path  2   0.372% Ti 46 ---(R)--- Ca 45 ---(S)--- 
+                    100.00%(n,2p)                  
+
+ path  3   0.299% Ti 46 ---(R)--- Sc 45m---(d)--- Sc 45 ---(R)--- Ca 45 ---(S)--- 
+                     97.16%(n,np)   100.00%(IT)     100.00%(n,p)                   
+                      2.84%(n,d)                                                   
+
+ path  4   0.161% Ti 46 ---(R)--- Ti 45 ---(b)--- Sc 45 ---(R)--- Ca 45 ---(S)--- 
+                    100.00%(n,2n)   100.00%(b+)     100.00%(n,p)                   
+                                      0.00%(n,p)                                   
+
+ path  5   0.102% Ti 46 ---(R)--- Sc 46 ---(r)--- Ca 45 ---(S)--- 
+                    100.00%(n,p)     85.17%(n,np)                  
+                                     14.83%(n,d)                   
+
+ path  6   0.036% Ti 46 ---(R)--- Sc 46m---(b)--- Sc 46 ---(r)--- Ca 45 ---(S)--- 
+                    100.00%(n,p)    100.00%(IT)      85.17%(n,np)                  
+                                      0.00%(n,E)     14.83%(n,d)                   
+                                      0.00%(n,n)                                   
+
+ path  7   0.001% Ti 46 ---(R)--- Sc 46 ---(r)--- Sc 45 ---(R)--- Ca 45 ---(S)--- 
+                    100.00%(n,p)    100.00%(n,2n)   100.00%(n,p)                   
+
+
+                         G E N E R I C     R O U T E S    F O R   I R R A D I A T I O N   P H A S E
+                         ==========================================================================
+
+
+
+ Target nuclide Ca 45      1.554% of inventory given by  5 paths
+ --------------------
+
+ path  1   0.882% Ti 46 ---(R)--- Sc 45 ---(R)--- Ca 45 ---(S)--- 
+ This generic pathway is the sum of  2 pathways
+
+ path  2   0.138% Ti 46 ---(R)--- Sc 46 ---(r)--- Ca 45 ---(S)--- 
+ This generic pathway is the sum of  2 pathways
+1
+                         R O U T E S    A N A L Y S I S   F O R   I R R A D I A T I O N   P H A S E
+                         ===========================================================================
+
+
+ no of steps        =      1
+ irradiation time   =  7.88940E+07 secs
+ flux               =  4.27701E+14 n/cm**2/s
+ path floor         =  5.00000E-01% of target inventory
+ loop floor         =  1.00000E+00% of path inventory
+ max depth          =   10    (maximum number of edges between source and target)
+
+ Source Nuclides
+  Ti 46    
+
+ Target Nuclides
+  Sc 44    
+
+ Target nuclide Sc 44    100.000% of inventory given by 10 paths
+ --------------------
+
+ path  1 100.000% Ti 46 ---(R)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+                     97.19%(n,np)   100.00%(n,2n)                  
+                      2.81%(n,d)                                   
+
+ path  2 100.000% Ti 46 ---(R)--- Sc 45 ---(R)--- Sc 44m---(b)--- Sc 44 ---(S)--- 
+                     97.19%(n,np)   100.00%(n,2n)    99.98%(IT)                    
+                      2.81%(n,d)                      0.02%(n,E)                   
+                                                      0.00%(n,n)                   
+
+ path  3 100.000% Ti 46 ---(R)--- Sc 45m---(d)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+                     97.16%(n,np)   100.00%(IT)     100.00%(n,2n)                  
+                      2.84%(n,d)                                                   
+
+ path  4 100.000% Ti 46 ---(R)--- Sc 45m---(d)--- Sc 45 ---(R)--- Sc 44m---(b)--- Sc 44 ---(S)--- 
+                     97.16%(n,np)   100.00%(IT)     100.00%(n,2n)    99.98%(IT)                    
+                      2.84%(n,d)                                      0.02%(n,E)                   
+                                                                      0.00%(n,n)                   
+
+ path  5 100.000% Ti 46 ---(R)--- Ti 45 ---(b)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+                    100.00%(n,2n)   100.00%(b+)     100.00%(n,2n)                  
+                                      0.00%(n,p)                                   
+
+ path  6 100.000% Ti 46 ---(R)--- Ti 45 ---(b)--- Sc 45 ---(R)--- Sc 44m---(b)--- Sc 44 ---(S)--- 
+                    100.00%(n,2n)   100.00%(b+)     100.00%(n,2n)    99.98%(IT)                    
+                                      0.00%(n,p)                      0.02%(n,E)                   
+                                                                      0.00%(n,n)                   
+
+ path  7   1.415% Ti 46 ---(R)--- Sc 46 ---(r)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+                    100.00%(n,p)    100.00%(n,2n)   100.00%(n,2n)                  
+
+ path  8   0.947% Ti 46 ---(R)--- Sc 46 ---(r)--- Sc 45 ---(R)--- Sc 44m---(b)--- Sc 44 ---(S)--- 
+                    100.00%(n,p)    100.00%(n,2n)   100.00%(n,2n)    99.98%(IT)                    
+                                                                      0.02%(n,E)                   
+                                                                      0.00%(n,n)                   
+
+ path  9   0.619% Ti 46 ---(R)--- Ca 45 ---(d)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+                    100.00%(n,2p)   100.00%(b-)     100.00%(n,2n)                  
+
+ path 10   0.502% Ti 46 ---(R)--- Sc 46m---(b)--- Sc 46 ---(r)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+                    100.00%(n,p)    100.00%(IT)     100.00%(n,2n)   100.00%(n,2n)                  
+                                      0.00%(n,E)                                                   
+                                      0.00%(n,n)                                                   
+
+
+                         G E N E R I C     R O U T E S    F O R   I R R A D I A T I O N   P H A S E
+                         ==========================================================================
+
+
+
+ Target nuclide Sc 44    100.000% of inventory given by  5 paths
+ --------------------
+
+ path  1 *******% Ti 46 ---(R)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+ This generic pathway is the sum of  4 pathways
+
+ path  2 353.141% Ti 46 ---(R)--- Ti 45 ---(b)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+ This generic pathway is the sum of  2 pathways
+
+ path  3   2.864% Ti 46 ---(R)--- Sc 46 ---(r)--- Sc 45 ---(R)--- Sc 44 ---(S)--- 
+ This generic pathway is the sum of  3 pathways
+fispact run time=                  0.73438     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ output(38)      simulation4.out
+ runlog(48)      simulation4.log
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:15:22:01 19 March 2021          
+
+     Current time: 15:22:02 19 March 2021          

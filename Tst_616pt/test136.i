@@ -1,0 +1,17 @@
+<< -----collapse cross section data----- >>
+CLOBBER
+LIBVERSION 0
+GETXS 1 616
+PROBTAB 0 1
+SSFCHOOSE 2 0 
+Ti W
+SSFMASS 1.0 3
+TI 85.0
+W 10.0
+Fe 5.0
+FISPACT
+* COLLAPSE EAF_616_FLT
+END
+* END OF RUN
+
+

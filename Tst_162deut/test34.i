@@ -1,0 +1,36 @@
+<< -----get nuclear data----- >>
+PROJ 2
+NOERROR
+GETXS 0
+GETDECAY 0
+FISPACT
+* IRRADIATION OF FE + U by d, IFMIF
+<< -----set initial conditions----- >>
+MASS 1.0 2
+Fe 99.9999
+U   0.0001
+MIND 1.E5
+USEFISSION
+GRAPH 5 2 1 1 2 3 4 5
+FLUX 1.0E14
+UNCERT 3
+ATOMS
+HAZA
+HALF
+ATWO
+<< -----irradiation phase----- >>
+TIME 2.5 YEARS
+ATOMS
+<< -----cooling phase----- >>
+FLUX 0.
+ZERO
+TIME 1 MINS ATOMS
+TIME 1 HOURS ATOMS
+TIME 1 DAYS ATOMS
+TIME 7 DAYS ATOMS
+TIME 1 YEARS ATOMS
+TIME 5000 YEARS ATOMS
+END
+* END
+
+
